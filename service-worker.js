@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "538f1864b46ae06ac4ed14fd2edeef8b"
+    "revision": "2a5507e7c40a4661b6aa540b51598ad7"
   },
   {
     "url": "Aftersoil.svg",
@@ -35,7 +35,7 @@ self.__precacheManifest = [
   },
   {
     "url": "Aftersoil/index.html",
-    "revision": "7ec2e453f1cad733a6c486f0621c7da4"
+    "revision": "9c7978bc61820ce8d12c584ea6e5d688"
   },
   {
     "url": "assets/css/0.styles.3aa4e869.css",
@@ -50,12 +50,12 @@ self.__precacheManifest = [
     "revision": "3e3d553bf2fa06cda93a952d1c08d63c"
   },
   {
-    "url": "assets/js/11.cbb802a4.js",
-    "revision": "0131e08d00f0be111c5037435ff22e2b"
+    "url": "assets/js/11.6db19f38.js",
+    "revision": "06c62e823cc98674cf1dc471d37773e3"
   },
   {
-    "url": "assets/js/12.3e3d5b1e.js",
-    "revision": "725b07e83c8e51fda6e655b3a8fcecef"
+    "url": "assets/js/12.26c7f675.js",
+    "revision": "b6ff7678c1f475faf1b6396749b6e520"
   },
   {
     "url": "assets/js/13.2c51b95a.js",
@@ -94,12 +94,12 @@ self.__precacheManifest = [
     "revision": "b6a29235cc5717d6fc57126658f6f021"
   },
   {
-    "url": "assets/js/app.60bfd53c.js",
-    "revision": "fae4c4d4643a29ae0a13778c30ad94d3"
+    "url": "assets/js/app.a0791f12.js",
+    "revision": "6bc195b61edacc4657326bb2a94aa35b"
   },
   {
     "url": "en/index.html",
-    "revision": "da192cf836cad007c0082e3e60854b4e"
+    "revision": "5ae406487519e22297dfc3784ddbe923"
   },
   {
     "url": "icon/chrome-192x192.png",
@@ -111,23 +111,23 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "016e9071116550a07c7a1c023dc78edb"
+    "revision": "e2126edcceef6ee7a9f4cfdd43e774fd"
   },
   {
     "url": "sitio/index.html",
-    "revision": "440f39cebb6e2fe078686923c0bc68de"
+    "revision": "139bdd10449ae1f2a5efc10e77239752"
   },
   {
     "url": "zh/Aftersoil/index.html",
-    "revision": "c92c7df85d68027a9842ebe6840ea0a7"
+    "revision": "53b7429fc0f7e5b278efcf29f531d42e"
   },
   {
     "url": "zh/index.html",
-    "revision": "555b7340259deda41ec407a540af04e6"
+    "revision": "c33ebd3da51de0ff1363da5dd82e1dec"
   },
   {
     "url": "zh/sitio/index.html",
-    "revision": "4db605c518b48fc7981ae9ec1ebd6aaa"
+    "revision": "27b15f6b3c307edc0a3e1e0fea2ada00"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
