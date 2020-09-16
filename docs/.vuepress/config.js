@@ -74,11 +74,14 @@ module.exports = {
               { text: "Hexo-theme-sitio", link: "/sitio/" }
             ]
           },
+          { text: "Docs", link: "/basics/" },
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
         sidebar: {
-          "/Aftersoil/": [""]
+          "/Aftersoil/": [""],
+          "/basics/": ["", "other", "rearend"],
+          "/frontend/node/": [""],
         }
       },
   
