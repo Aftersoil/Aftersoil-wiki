@@ -69,7 +69,7 @@ module.exports = {
               { text: "Hexo-theme-sitio", link: "/sitio/" }
             ]
           },
-          { text: "Docs", link: "/basics/" },
+          { text: "Docs", link: "/basics/"},
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
@@ -77,6 +77,12 @@ module.exports = {
           "/Aftersoil/": [""],
           "/basics/": ["", "other", "rearend"],
           "/frontend/node/": [""],
+          "/frontend/docsHtml/":[""],
+          "/frontend/docsCss/": [""],
+          "/frontend/docsH5C3/":[""],
+          "/frontend/javaScript/":[""],
+          "/frontend/javaScriptTop/":[""],
+
         }
       },
   
