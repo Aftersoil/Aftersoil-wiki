@@ -28,12 +28,7 @@ module.exports = {
   /**
    * 外部插件
    */
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: true
-    },
-  },
+  plugins: ['@vuepress/back-to-top', '@vuepress/pwa', ],
 
   /**
    * 默认语言英文
@@ -109,5 +104,5 @@ module.exports = {
     },
     
   },
-  
+
 }
