@@ -3,7 +3,7 @@ set -e
 before="\033[32m"
 rear="\033[0m"
 
-echo -e "$before▶ Start executing the command.$rear"
+echo -e "$before▶ Start executing the command. $rear"
 
 git status
 
