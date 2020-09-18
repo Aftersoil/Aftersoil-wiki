@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
   width: 8px;
-  height: auto;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -14,4 +14,16 @@
 
 body {
   overflow-x hidden
+}
+
+.token.comment, .token.block-comment, .token.prolog, .token.doctype, .token.cdata {
+  color #2fd611
+}
+
+.custom-block .custom-block-title {
+  display none
+}
+
+.theme-default-content pre.language-sh code {
+  color #17ff0b;
 }
