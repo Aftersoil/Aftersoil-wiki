@@ -21,7 +21,7 @@
 - [domBom](/frontend/domBom)
 
 ## Node
-- [1. node](/frontend/node/)
+- [node](/frontend/node/)
 
 ## Vue
 
