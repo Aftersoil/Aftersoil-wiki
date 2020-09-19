@@ -70,7 +70,7 @@ git add .
 
 echo -e "$before'请输入您要提交的commit: '$rear"
 read commits
-gitc commit -m "$commits"
+git commit -m "$commits"
 
 git push origin "$ghTemp"
 echo -e "$before'▶ 静态文件已成功提交，请转到GitHub合并分支.'$rear"
