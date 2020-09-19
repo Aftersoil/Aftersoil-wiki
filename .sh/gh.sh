@@ -4,10 +4,16 @@ set -e
 # variable
 before="\033[32m"
 rear="\033[0m"
-dev=yuxin
 gh_branch=ghTemp
 
-echo -e  "$before'▶ Start executing the command.'$rear"
+# 删除文件
+echo -e "$before'▶ 清除已存在文件. '$rear"
+rm -rf dist
+rm -rf docs/.vuepress/dist
+git branch -D gh-pages "$gh_branch"
+echo -e "$before'▶ 清除完成. '$rear"
+
+echo -e "$before'▶ 开始执行命令. '$rear"
 
 # Write a sleep 1s to solve the problem of concurrency
 sleep 1s
@@ -15,65 +21,72 @@ sleep 1s
 git branch
 
 # Download the gh-pages branch from the distant GitHub repository.
-echo -e "$before'▶ Downloading please wait....'$rear"
+echo -e "$before'▶ 正在下载 gh-pages ，请稍候....'$rear"
 git fetch origin gh-pages:gh-pages
-echo -e "$before'▶ Download completed.'$rear"
+echo -e "$before'▶ 下载完成.'$rear"
 
 git branch;
+
+sleep 1s
+
+echo -e "$before'▶ 开始打包项目.'$rear"
+# Generate static files.
+npm run build
+echo -e "$before'▶ 项目打包完成.'$rear"
+
+sleep 1s
+
+# 开始移动文件，把 docs/.vuepress/dist 文件夹全部内容移动到项目根目录
+echo -e "$before'▶ 开始更改dist静态文件夹的位置.'$rear"
+mv docs/.vuepress/dist dist
+echo - "$before'▶ dist文件夹移动成功.'$rear"
+
+sleep 1s
 
 # 切换分支
 git checkout gh-pages
 # 新建分支(从gh-pages中新建一个分支)
-echo -e "$before'▶ Creating new branch.'$rear"
+echo -e "$before'▶ 创建新分支.'$rear"
 git branch "$gh_branch"
-echo -e "$before'▶ Branch created successfully.'$rear"
-
-sleep 1s
-
-# 在切换到开发分支中
-# 后期开发分支名称
-read branch_name
-git checkout branch_name
-
-echo -e "$before'▶ Current branch branch_name.'$rear"
-
-echo -e "$before'▶ Start packaging project.'$rear"
-# Generate static files.
-npm run build
-echo -e "$before'▶ Project package completed.'$rear"
-
-# 开始移动文件，把 docs/.vuepress/dist 文件夹全部内容移动到项目根目录
-echo -e "$before'▶ Start to change the location of the dist static folder.'$rear"
-mv docs/.vuepress/dist dist
-echo - "$before'▶ dist folder moved successfully.'$rear"
-
-sleep 1s
+echo -e "$before'▶ 分支创建成功.'$rear"
 
 # 切换分支
-echo -e "$before'▶ Switching branches.'$rear"
+echo -e "$before'▶ 切换分支.'$rear"
 git checkout "$gh_branch"
-echo -e "$before'▶ Switch to "$gh_branch" branch successfully.'$rear"
+echo -e "$before'▶ 成功切换到 "$gh_branch" 分支.'$rear"
 
-# 移动文件
-echo -e "$before'▶ Start moving all files under dist.'$rear"
+# 复制文件
+echo -e "$before'▶ 开始将所有文件移到dist下.'$rear"
 cd ..
 cp -rvf Aftersoil-wiki/dist/* Aftersoil-wiki
 cd Aftersoil-wiki/
-echo -e "$before'▶ File copy end.'$rear"
+echo -e "$before'▶ 文件复制结束.'$rear"
 
 sleep 1s
 
 # 开始远程提交
-echo -e "$before'▶ Start remote submission to GitHub.'$rear"
-git push origin "$ghTemp"
-echo -e "$before'▶ The static file is submitted successfully, please go to GitHub to merge the branch.'$rear"
+echo -e "$before'▶ 开始远程提交到GitHub. '$rear"
+git add .
 
-echo -e "$before'▶ Switch branches and delete "$ghTemp" branch.'$rear"
+echo -e "$before'请输入您要提交的commit: '$rear"
+read commits
+git commit -m "$commits"
+
+git push origin "$gh_branch"
+echo -e "$before'▶ 静态文件已成功提交，请转到GitHub合并分支.'$rear"
+
+sleep 1s
+
+echo -e "$before'▶ 切换分支并删除 "$gh_branch" 分支。'$rear"
 git branch
+echo -e "$before'▶ 请输入您的开发分支名称。'$rear"
+
+read dev
+
 git checkout "$dev"
-git branch -D "$ghTemp"
+git branch -D "$gh_branch" gh-pages
 git branch
-echo -e "$before'▶ The branch is deleted successfully The code is executed successfully, welcome to submit next time.'$rear"
+echo -e "$before'▶ 分支删除成功代码成功执行，欢迎下次提交.'$rear"
 
 # 退出脚本
 exit
