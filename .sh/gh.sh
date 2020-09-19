@@ -72,19 +72,19 @@ echo -e "$before'请输入您要提交的commit: '$rear"
 read commits
 git commit -m "$commits"
 
-git push origin "$ghTemp"
+git push origin "$gh_branch"
 echo -e "$before'▶ 静态文件已成功提交，请转到GitHub合并分支.'$rear"
 
 sleep 1s
 
-echo -e "$before'▶ 切换分支并删除 "$ghTemp" 分支。'$rear"
+echo -e "$before'▶ 切换分支并删除 "$gh_branch" 分支。'$rear"
 git branch
 echo -e "$before'▶ 请输入您的开发分支名称。'$rear"
 
 read dev
 
 git checkout "$dev"
-git branch -D "$ghTemp" gh-pages
+git branch -D "$gh_branch" gh-pages
 git branch
 echo -e "$before'▶ 分支删除成功代码成功执行，欢迎下次提交.'$rear"
 
