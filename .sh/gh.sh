@@ -4,10 +4,16 @@ set -e
 # variable
 before="\033[32m"
 rear="\033[0m"
-dev=yuxin
 gh_branch=ghTemp
 
-echo -e  "$before'▶ 开始执行命令. '$rear"
+# 删除文件
+echo -e "$before'▶ 清除已存在文件. '$rear"
+rm -rf dist
+rm -rf docs/.vuepress/dist
+git branch -D gh-pages "$gh_branch"
+echo -e "$before'▶ 清除完成. '$rear"
+
+echo -e "$before'▶ 开始执行命令. '$rear"
 
 # Write a sleep 1s to solve the problem of concurrency
 sleep 1s
@@ -69,10 +75,16 @@ gitc commit -m "$commits"
 git push origin "$ghTemp"
 echo -e "$before'▶ 静态文件已成功提交，请转到GitHub合并分支.'$rear"
 
+sleep 1s
+
 echo -e "$before'▶ 切换分支并删除 "$ghTemp" 分支。'$rear"
 git branch
+echo -e "$before'▶ 请输入您的开发分支名称。'$rear"
+
+read dev
+
 git checkout "$dev"
-git branch -D "$ghTemp"
+git branch -D "$ghTemp" gh-pages
 git branch
 echo -e "$before'▶ 分支删除成功代码成功执行，欢迎下次提交.'$rear"
 
