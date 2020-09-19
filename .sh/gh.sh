@@ -21,6 +21,13 @@ echo -e "$before'▶ Download completed.'$rear"
 
 git branch;
 
+sleep 1s
+
+echo -e "$before'▶ Start packaging project.'$rear"
+# Generate static files.
+npm run build
+echo -e "$before'▶ Project package completed.'$rear"
+
 # 切换分支
 git checkout gh-pages
 # 新建分支(从gh-pages中新建一个分支)
@@ -32,15 +39,10 @@ sleep 1s
 
 # 在切换到开发分支中
 # 后期开发分支名称
-read branch_name
-git checkout branch_name
+# read branch_name
+# git checkout branch_name
 
 echo -e "$before'▶ Current branch branch_name.'$rear"
-
-echo -e "$before'▶ Start packaging project.'$rear"
-# Generate static files.
-npm run build
-echo -e "$before'▶ Project package completed.'$rear"
 
 # 开始移动文件，把 docs/.vuepress/dist 文件夹全部内容移动到项目根目录
 echo -e "$before'▶ Start to change the location of the dist static folder.'$rear"
