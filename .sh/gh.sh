@@ -7,7 +7,14 @@ rear="\033[0m"
 dev=yuxin
 gh_branch=ghTemp
 
-echo -e  "$before'▶ 开始执行命令. '$rear"
+# 删除文件
+echo -e "$before'▶ 清除已存在文件. '$rear"
+rm -rf dist
+rm -rf docs/.vuepress/dist
+git branch -D gh-pages "$gh_branch"
+echo -e "$before'▶ 清除完成. '$rear"
+
+echo -e "$before'▶ 开始执行命令. '$rear"
 
 # Write a sleep 1s to solve the problem of concurrency
 sleep 1s
