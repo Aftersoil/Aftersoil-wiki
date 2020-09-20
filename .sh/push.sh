@@ -29,6 +29,8 @@ sleep 1s
 echo -e "$before▶ 请输入您要提交的分支.$rear"
 read branch
 
+echo "正在提交 $branch 请稍后"
+
 git push origin "$branch"
  
 echo -e "$before▶ 成功推送.$rear"
