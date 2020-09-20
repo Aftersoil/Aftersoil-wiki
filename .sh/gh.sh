@@ -65,7 +65,7 @@ echo -e "$before'▶ 文件复制结束.'$rear"
 sleep 1s
 
 # 开始远程提交
-echo -e "$before'▶ Start remote submission to GitHub.'$rear"
+echo -e "$before'▶ 开始远程提交到GitHub. '$rear"
 git add .
 
 echo -e "$before'请输入您要提交的commit: '$rear"
@@ -85,6 +85,7 @@ read dev
 
 git checkout "$dev"
 git branch -D "$gh_branch" gh-pages
+rm -rf dist
 git branch
 echo -e "$before'▶ 分支删除成功代码成功执行，欢迎下次提交.'$rear"
 
