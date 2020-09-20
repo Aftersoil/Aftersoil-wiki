@@ -85,6 +85,7 @@ read dev
 
 git checkout "$dev"
 git branch -D "$gh_branch" gh-pages
+rm -rf dist
 git branch
 echo -e "$before'▶ 分支删除成功代码成功执行，欢迎下次提交.'$rear"
 
