@@ -1,18 +1,64 @@
 #!/usr/bin/env sh.
 set -e
 
-# Generate static files.
-npm run build
+before="\033[32m"
+rear="\033[0m"
 
-cd docs/.vuepress/dist
+sleep 1s
 
-# git init
-# git add -A
-# git commit -m 'first commit'
+RemotePull () {
+  sleep 1s
 
-# release 
-# https://<USERNAME>.github.io/<REPO>  git@github.com:Aftersoil/Aftersoil-wiki.git
-# git push -f git@github.com:Aftersoil/Aftersoil-wiki.git master
+  # Please wait a moment to start pulling new requests from GitHub.
+  echo -e "$before 开始从 GitHub 拉取新的请求请稍后... $rear"
+
+  # https://<USERNAME>.github.io/<REPO>  git@github.com:Aftersoil/Aftersoil-wiki.git
+  git pull origin master
+
+  # The pull is successful and merged into the current branch.
+  echo -e "$before 拉取成功并合并到当前分支. $rear"
+
+  sleep 1s
+}
+
+Bale() {
+  sleep 1s
+
+  # Please wait to start packaging the project...
+  echo -e "$before 开始打包项目请稍后... $rear"
+
+  # Generate static files.
+  npm run build
+
+  # Project package completed.
+  echo -e "$before 项目打包完成. $rear"
+
+  sleep 1s
+}
+
+echo "请选择要执行的 GitHub 操作:"
+select var in "pull" "build" "exit";
+do
+  break
+done
+
+sleep 1s
+
+case $var in
+  pull)
+    RemotePull 
+  ;;
+  build)
+    Bale
+  ;;
+  exit)
+    exit
+  ;;
+  *)
+    echo -e "$before 请输入正确的格式. $rear"
+    npm run deploy
+  ;;
+esac
 
 # exit the program
-cd -
+exit
