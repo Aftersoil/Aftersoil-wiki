@@ -492,8 +492,8 @@ transiton-timing-function:
 #### normalize.css
 :::tip
   是 css reset 的一种优质的替代方案<br>
-  css 地址: <a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" target="_blank">https://necolas.github.io/normalize.css/8.0.1/normalize.css</a><br>
-  Github 地址: <a href="https://github.com/necolas/normalize.css" target="_blank">https://github.com/necolas/normalize.css</a>
+  css 地址: <a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" target="_blank">normalize</a><br>
+  Github 地址: <a href="https://github.com/necolas/normalize.css" target="_blank">normalize GitHub</a>
 :::
 
 #### css reset 和 normalize.css 的区别
