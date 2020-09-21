@@ -10,7 +10,6 @@ gh_branch=ghTemp
 echo -e "$before'▶ 清除已存在文件. '$rear"
 rm -rf dist
 rm -rf docs/.vuepress/dist
-git branch -D gh-pages "$gh_branch"
 echo -e "$before'▶ 清除完成. '$rear"
 
 echo -e "$before'▶ 开始执行命令. '$rear"
