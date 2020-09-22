@@ -24,9 +24,14 @@
 - [node](/frontend/node/)
 
 ## Vue
+- [vue](/frontend/vue/)
 
+## Nuxt
+- [nuxt](/frontend/nuxt/)
 
 ## Vuex
+- [vuex](/frontend/vuex/)
+
 
 
 ## Vuepress
