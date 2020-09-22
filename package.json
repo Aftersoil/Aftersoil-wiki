@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
+    "deploy": "bash .sh/deploy.sh",
+    "push": "bash .sh/push.sh",
+    "gh": "bash .sh/gh.sh",
     "test": "mocha"
   },
   "keywords": [],
