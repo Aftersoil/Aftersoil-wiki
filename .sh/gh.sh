@@ -12,17 +12,16 @@ rm -rf dist
 rm -rf docs/.vuepress/dist
 echo -e "$before'▶ 清除完成. '$rear"
 
-echo -e "$before'▶ 开始执行命令. '$rear"
-
-# Write a sleep 1s to solve the problem of concurrency
 sleep 1s
+
+echo -e "$before'▶ 开始执行命令. '$rear"
 
 git branch
 
 # Download the gh-pages branch from the distant GitHub repository.
-echo -e "$before'▶ 正在下载 gh-pages ，请稍候....'$rear"
+echo -e "$before'▶ 正在下载远程最新 gh-pages, 请稍候....'$rear"
 git fetch origin gh-pages:gh-pages
-echo -e "$before'▶ 下载完成.'$rear"
+echo -e "$before'▶ 远程 gh-pages 下载完成.'$rear"
 
 git branch;
 
@@ -63,9 +62,15 @@ echo -e "$before'▶ 文件复制结束.'$rear"
 
 sleep 1s
 
+echo  -e "$before'▶ 查看当前分支状态 '$rear"
+git status
+
 # 开始远程提交
-echo -e "$before'▶ 开始远程提交到GitHub. '$rear"
+echo -e "$before'▶ 开始提交暂存区,请稍后... '$rear"
 git add .
+echo -e "$before'▶ 文件已全部提交到暂存区. '$rear"
+
+git status
 
 echo -e "$before'请输入您要提交的commit: '$rear"
 read commits
@@ -76,11 +81,13 @@ echo -e "$before'▶ 静态文件已成功提交，请转到GitHub合并分支.'
 
 sleep 1s
 
-echo -e "$before'▶ 切换分支并删除 "$gh_branch" 分支。'$rear"
+echo -e "$before'▶ 切换分支并删除 "$gh_branch" 和 gh-pages 分支。'$rear"
 git branch
 echo -e "$before'▶ 请输入您的开发分支名称。'$rear"
 
 read dev
+
+echo  -e "$before'▶ 正在删除分支请稍后... '$rear"
 
 git checkout "$dev"
 git branch -D "$gh_branch" gh-pages
