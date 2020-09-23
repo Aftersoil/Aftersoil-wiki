@@ -241,7 +241,7 @@ build: {
 
 # nuxt-link 标签
 
-​	<nuxt-link>标签（vue中叫组件）。首页的<a>标签替换成<nuxt-link>
+​	<nuxt-link>标签（vue中叫组件）。首页的`<a>`标签替换成`<nuxt-link>`
 
 
 # params传递参数

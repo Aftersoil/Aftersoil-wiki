@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# vue
-=======
 # VUE  2.X
 
 ## 什么是Vue
@@ -98,9 +95,9 @@ js 框架:
     
     结果:
 
-1 new Vue 会自动将data中的初始值替换界面中所有{{变量}}的位置
+1 new Vue 会自动将data中的初始值替换界面中所有`{{变量}}`的位置
 
-2. 只要data中的变量值发生变化 new Vue 会自动将新变量值 更新到页面中去{{变量}}位置
+2. 只要data中的变量值发生变化 new Vue 会自动将新变量值 更新到页面中去`{{变量}}`位置
 ```
 
 
@@ -224,27 +221,31 @@ Vue 内存中仅保存可能变化的DOM元素和可能变化的属性的简化�
 
 什么是: 
 
-  在页面中使用{{变量}}标记哪些可能发生变化的
+```
+  在页面中使用`{{变量}}`标记哪些可能发生变化的
 
   学名: 插值语法: interpolation
 
 
     何时:   
         
-        只要页面中一个位置的内容 可能根据变量的变化而自动变化时 都是用{{变量}}来占位
+        只要页面中一个位置的内容 可能根据变量的变化而自动变化时 都是用`{{变量}}`来占位
     
     结果:
         
-        1.所有标有{{变量}}的元素,都被加入虚拟DOM树中
+        1.所有标有{{\变量}}的元素,都被加入虚拟DOM树中
         2.当变量变化时,根据{{}}中的变量名 判断当前元素是否受影响 如果受影响。则自动更新该元素的内容。
 
 
 ​    
 ​    如何:{{}}除了可以写死一个变量外 还可编写任意正确的有返回值的js表达式————用法同模板字符串中的${...}
 ​      
-​      比如:{{算术运算}}{{比较运算}}{{三木运算}}{{调用函数}} {{创建对象/访问对象的属性}} {{访问数组的元素}}
+​      比如:
+    
+{{算术运算}}{{比较运算}}{{三木运算}}{{调用函数}} {{创建对象/访问对象的属性}} {{访问数组的元素}}
+```
 ​      
-      不能放程序结构: if else while for do while
+    不能放程序结构: if else while for do while
 
 
 
@@ -615,7 +616,7 @@ onEnter:function(){
 
 # 绑定HTML片段内容
 
-    问题:{{}} 不能用于绑定html片段 如果{{}}绑定的是 HTML片段 不会解析其中的内嵌标签和特殊符号 而是尽量保持原样显示
+    问题:\{\{\}\} 不能用于绑定html片段 如果\{\{\}\}绑定的是 HTML片段 不会解析其中的内嵌标签和特殊符号 而是尽量保持原样显示
     
         解决: 今后 凡是绑定HTML片段 都用v-html 
         强调: v-html 是指令 应该放在开始标签
@@ -661,7 +662,7 @@ onEnter:function(){
 ​          
   ## 总结: 
 
-          今后,尽量用v-text代替{{}},绑定普通文本内容 如果字符串需要动态生成,
+          今后,尽量用v-text代替\{\{\}\},绑定普通文本内容 如果字符串需要动态生成,
           
           而且拼接逻辑比较复杂,首选{{}}+v-cloak隐藏
          
@@ -2021,7 +2022,7 @@ propsData 不是和属性相关  他用在全局扩展时进行传递数据
 
 ```js
 var  header_a = Vue.extend({
-    template:`<p>{{message}}-{{a}}</p>`,
+    template:<p>{{message}}-{{a}}</p>,
     data:function(){
         return {
             message:'Hello,I am Header'
@@ -2029,7 +2030,6 @@ var  header_a = Vue.extend({
     },
 
     props:['a']
-
 }); 
 
 new header_a({propsData:{a:1}}).$mount('header');
@@ -2495,11 +2495,11 @@ var vm = new jspang().$mount("#app")
 $destroy()后边必须要有括号
 ```
 
-## $nextTick() 数据修改方法
+## \$nextTick() 数据修改方法
 
 ```js
-当Vue构造器里的data值被修改完成后会调用这个方法，
-也相当于一个钩子函数吧，和构造器里的updated生命周期很像。
+// 当Vue构造器里的data值被修改完成后会调用这个方法，
+// 也相当于一个钩子函数吧，和构造器里的updated生命周期很像。
 
 function tick(){
     vm.message="update message info ";
@@ -2908,7 +2908,7 @@ Vue.Component("组件名",{
     强调:如果组件名由多个单词组成:
     不要用驼峰命名:因为组件名就是标签名 而HTML不区分大小写 所以拼写相同 但是大小写不同,是不能区分不同标签的
     
-    所以,如果组件名由多个单词组成 可用-分割多个单词:<my-header>..
+    所以,如果组件名由多个单词组成 可用-分割多个单词:`<my-header>`..
 
 
 原理:
@@ -3936,7 +3936,7 @@ export default new Router({
 
 在src/components目录下，新建 Hi.vue 文件。
 
-文件要包括三个部分<template><script>和<style>。文件很简单，只是打印一句话。
+文件要包括三个部分`<template><script>`和`<style>`。文件很简单，只是打印一句话。
 
 ```html
 <template>
@@ -4005,7 +4005,7 @@ import Hi from '@/components/Hi'
 
 #### ** 改写components/Hi.vue页面 **
 
-把Hi.vue改成一个通用的模板，加入<router-view>标签
+把Hi.vue改成一个通用的模板，加入`<router-view>`标签
 给子模板提供插入位置。“Hi页面1” 和 “Hi页面2” 都相当于“Hi页面”的子页面，
 
 ### ** components/Hi.vue**
@@ -4134,7 +4134,7 @@ export default new Router({
 
 <!-- name 作用 -->
 
-## ** 二、通过<router-link> 标签中的to传参 **
+## ** 二、通过`<router-link>` 标签中的to传参 **
 
 ```js
 <router-link>标签中的to属性进行传参
@@ -4147,7 +4147,7 @@ params：就是我们要传的参数，它也是对象形势，在对象里可�
 
 ## src/App.vue
 
-把hi1页面的<router-link>进行修改。
+把hi1页面的`<router-link>`进行修改。
 
 ```js
 <router-link :to="{name:'hi1',params:{username:'jspang'}}">Hi页面1</router-link>
@@ -4266,7 +4266,7 @@ name: 'hi2',
     </script>
 ```
 
-## App.vue中配置<router-link>
+## App.vue中配置`<router-link>`
 
 ```html
 <router-link to="/">首页</router-link> 
@@ -4324,7 +4324,7 @@ src/components目录下建立我们params.vue组件
 </script>
 ```
 
-## App.vue文件里加入<router-view>标签。
+## App.vue文件里加入`<router-view>`标签。
 
 ```js
 可以直接利用url传值
@@ -4391,9 +4391,9 @@ App.vue
     alias:'/Kiven'
 }
 ```
-## 配置我们的<router-link>
+## 配置我们的`<router-link>`
 
-起过别名之后，可以直接使用<router-link>标签里的to属性，进行重新定向。
+起过别名之后，可以直接使用`<router-link>`标签里的to属性，进行重新定向。
 
 
 ```html
@@ -4405,7 +4405,7 @@ App.vue
 
 redirect：仔细观察URL，redirect是直接改变了url的值，把url变成了真实的path路径。
 
-alias：URL路径没有别改变，这种情况更友好，让用户知道自己访问的路径，只是改变了<router-view>中的内容。
+alias：URL路径没有别改变，这种情况更友好，让用户知道自己访问的路径，只是改变了`<router-view>`中的内容。
 
 
 
@@ -4584,7 +4584,7 @@ params.vue
 
 # 编程式导航
 
-    <router-link>
+    `<router-link>`
 
 ## ** this.$router.go(-1) 和 this.$router.go(1) **
 
@@ -4652,9 +4652,3 @@ router.go(1):代表着前进
 
 
 
-
-
-
-
-
->>>>>>> b7bd45891366e76b6c65824b5efbc4d509dc9d74

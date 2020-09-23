@@ -13,11 +13,11 @@ RemotePull () {
   echo -e "$before 开始从 GitHub 拉取新的请求请稍后... $rear"
 
   echo -e "$before 请输入你要拉取的分支 $rear"
-  read commit
-  echo -e "$before 分支拉取成功 $rear"
+  read temp_branch
 
   # https://<USERNAME>.github.io/<REPO>  git@github.com:Aftersoil/Aftersoil-wiki.git
-  git pull origin "$commit"
+  git pull origin "$temp_branch"
+  echo -e "$before 分支拉取成功 $rear"
 
   # The pull is successful and merged into the current branch.
   echo -e "$before 拉取成功并合并到当前分支. $rear"
