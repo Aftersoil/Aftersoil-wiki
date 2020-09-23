@@ -88,6 +88,9 @@ module.exports = {
           "/frontend/docsH5C3/":[""],
           "/frontend/javaScript/":[""],
           "/frontend/javaScriptTop/":[""],
+          "/frontend/vue/":[""],
+          "/frontend/vuex/":[""],
+          "/frontend/nuxt/":[""],
 
         }
       },
@@ -114,7 +117,7 @@ module.exports = {
         }
       },
     },
-    
+
   },
 
 }
