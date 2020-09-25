@@ -104,6 +104,7 @@ module.exports = {
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
+          { text: "笔记", link: "/basics/"},
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
