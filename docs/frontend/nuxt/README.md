@@ -241,7 +241,7 @@ build: {
 
 # nuxt-link 标签
 
-​	<nuxt-link>标签（vue中叫组件）。首页的`<a>`标签替换成`<nuxt-link>`
+​	`<nuxt-link>`标签（vue中叫组件）。首页的`<a>`标签替换成`<nuxt-link>`
 
 
 # params传递参数
@@ -336,7 +336,7 @@ news文件夹下的index.vue里用$route.params.newsId进行接收
 
 # 注意
 
-<nuxt-link>组件来制作跳转链接
+`<nuxt-link>`组件来制作跳转链接
 
 ```html
 <li><nuxt-link :to="{name:'news-id',params:{id:123}}">News-1</nuxt-link></li>
@@ -453,7 +453,7 @@ layouts文件夹下建立一个error.vue文件，
 
 
 
-代码用v-if进行判断错误类型，需要注意的是这个错误是你需要在<script>里进行声明的，
+代码用v-if进行判断错误类型，需要注意的是这个错误是你需要在`<script>`里进行声明的，
 
 如果不声明程序是找不到error.statusCode的。
 

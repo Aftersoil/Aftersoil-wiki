@@ -80,18 +80,18 @@ module.exports = {
         // 导航
         sidebar: {
           "/Aftersoil/": [""],
-          "/basics/": ["", "other", "rearend"],
+          "/basics/": ["", /*"rearend",*/ "other"],
           "/frontend/node/": [""],
           "/frontend/docsHtml/":[""],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
-          "/frontend/docsH5C3/":[""],
-          "/frontend/javaScript/":[""],
-          "/frontend/javaScriptTop/":[""],
-          "/frontend/vue/":[""],
-          "/frontend/vuex/":[""],
-          "/frontend/nuxt/":[""],
-
+          // "/frontend/docsH5C3/":[""],
+          // "/frontend/javaScript/":[""],
+          // "/frontend/javaScriptTop/":[""],
+          // "/frontend/vue/":[""],
+          // "/frontend/vuex/":[""],
+          // "/frontend/nuxt/": [""],
+          "/other/git/": [""],
         }
       },
   
