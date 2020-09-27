@@ -85,6 +85,7 @@ module.exports = {
           "/frontend/docsHtml/":[""],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
+          "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
           // "/frontend/javaScript/":[""],
           // "/frontend/javaScriptTop/":[""],
