@@ -80,18 +80,19 @@ module.exports = {
         // 导航
         sidebar: {
           "/Aftersoil/": [""],
-          "/basics/": ["", "other", "rearend"],
+          "/basics/": ["", /*"rearend",*/ "other"],
           "/frontend/node/": [""],
           "/frontend/docsHtml/":[""],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
-          "/frontend/docsH5C3/":[""],
-          "/frontend/javaScript/":[""],
-          "/frontend/javaScriptTop/":[""],
-          "/frontend/vue/":[""],
-          "/frontend/vuex/":[""],
-          "/frontend/nuxt/":[""],
-
+          "/frontend/jQuery/": ["", "method", "event", "customize"],
+          // "/frontend/docsH5C3/":[""],
+          // "/frontend/javaScript/":[""],
+          // "/frontend/javaScriptTop/":[""],
+          // "/frontend/vue/":[""],
+          // "/frontend/vuex/":[""],
+          // "/frontend/nuxt/": [""],
+          "/other/git/": [""],
         }
       },
   
@@ -109,6 +110,7 @@ module.exports = {
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
+          { text: "笔记", link: "/basics/"},
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
