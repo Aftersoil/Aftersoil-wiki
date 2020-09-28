@@ -33,10 +33,22 @@ module.exports = {
   /**
    * 外部插件
    */
-  plugins: [
-    '@vuepress/back-to-top',
-    'vuepress-plugin-smooth-scroll'
-  ],
+  plugins: {
+    '@vuepress/pwa': {
+      updatePopup: {
+        "/": {
+          message: 'New content is available',
+          buttonText: 'Refresh',
+        },
+        "/zh/": {
+          message: '发现新内容可用',
+          buttonText: '刷新',
+        }
+      }
+    },
+    '@vuepress/back-to-top': true,
+    'vuepress-plugin-smooth-scroll': true
+  },
 
   /**
    * 默认语言英文
@@ -47,13 +59,6 @@ module.exports = {
       lang: "en-US",
       title: "Aftersoil-wiki",
       description: "后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki",
-      '@vuepress/pwa': {
-        serviceWorker: true,
-        updatePopup: {
-          message: "There is new content update",
-          buttonText: "Refresh"
-        }
-      },
     },
 
     // 中文
@@ -61,13 +66,6 @@ module.exports = {
       lang: "zh-CN",
       title: "后土维基",
       description: "后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki",
-      '@vuepress/pwa': {
-        serviceWorker: true,
-        updatePopup: {
-          message: "有新的内容更新",
-          buttonText: "刷新"
-        }
-      },
     },
   },
 
@@ -108,6 +106,7 @@ module.exports = {
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
           // "/frontend/nuxt/": [""],
+          "/frontend/webpack/": ["", "install"],
           // ====================================================
           "/other/git/": [""],
           "/other/pwa/": [""],
@@ -121,7 +120,7 @@ module.exports = {
         editLinkText: 'Edit this page on GitHub',
         // 中文导航
         nav: [
-          { text: "首页", link: "/" },
+          { text: "首页", link: "/zh/" },
           {
             text: "文档", link: "/doc",
             items: [
@@ -147,6 +146,7 @@ module.exports = {
           // "/zh/frontend/vue/":[""],
           // "/zh/frontend/vuex/":[""],
           // "/zh/frontend/nuxt/": [""],
+          "/zh/frontend/webpack/": ["", "install"],
           // ====================================================
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],
