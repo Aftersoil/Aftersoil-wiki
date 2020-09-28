@@ -2,9 +2,9 @@
 
 ## Git
 
-* [Git Introduction](/other/git/)
+* [Git](/other/git/)
 
 ## PWA Technology
 
-* [PWA Introduction](/other/pwa/)
+* [PWA](/other/pwa/)
 

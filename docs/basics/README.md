@@ -1,7 +1,7 @@
 # Front-end Documentation
 
 ## HTML + CSS
-- [HTML](/frontend/docsHtml/)
+- [HTML](/frontend/HTML/)
 - [CSS基础](/frontend/css/)
 - [BootStrap](/frontend/BootStrap/)
 
