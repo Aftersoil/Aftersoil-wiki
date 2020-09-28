@@ -33,7 +33,22 @@ module.exports = {
   /**
    * 外部插件
    */
-  plugins: ['@vuepress/back-to-top', '@vuepress/pwa', ],
+  plugins: {
+    '@vuepress/pwa': {
+      updatePopup: {
+        "/": {
+          message: 'New content is available',
+          buttonText: 'Refresh',
+        },
+        "/zh/": {
+          message: '发现新内容可用',
+          buttonText: '刷新',
+        }
+      }
+    },
+    '@vuepress/back-to-top': true,
+    'vuepress-plugin-smooth-scroll': true
+  },
 
   /**
    * 默认语言英文
@@ -44,7 +59,6 @@ module.exports = {
       lang: "en-US",
       title: "Aftersoil-wiki",
       description: "后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki",
-
     },
 
     // 中文
@@ -80,7 +94,7 @@ module.exports = {
         // 导航
         sidebar: {
           "/Aftersoil/": [""],
-          "/basics/": ["", /*"rearend",*/ "other"],
+          "/basics/": ["", "rearend", "other"],
           "/frontend/node/": [""],
           "/frontend/docsHtml/":[""],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
@@ -92,7 +106,10 @@ module.exports = {
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
           // "/frontend/nuxt/": [""],
+          "/frontend/webpack/": ["", "install"],
+          // ====================================================
           "/other/git/": [""],
+          "/other/pwa/": [""],
         }
       },
   
@@ -103,19 +120,36 @@ module.exports = {
         editLinkText: 'Edit this page on GitHub',
         // 中文导航
         nav: [
-          { text: "首页", link: "/" },
+          { text: "首页", link: "/zh/" },
           {
             text: "文档", link: "/doc",
             items: [
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
-          { text: "笔记", link: "/basics/"},
+          { text: "笔记", link: "/zh/basics/"},
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
         sidebar: {
-          "/zh/Aftersoil/": [""]
+          "/zh/Aftersoil/": [""],
+          "/zh/Aftersoil/": [""],
+          "/zh/basics/": ["", "rearend", "other"],
+          "/zh/frontend/node/": [""],
+          "/zh/frontend/docsHtml/":[""],
+          "/zh/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/zh/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
+          "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
+          // "/zh/frontend/docsH5C3/":[""],
+          // "/zh/frontend/javaScript/":[""],
+          // "/zh/frontend/javaScriptTop/":[""],
+          // "/zh/frontend/vue/":[""],
+          // "/zh/frontend/vuex/":[""],
+          // "/zh/frontend/nuxt/": [""],
+          "/zh/frontend/webpack/": ["", "install"],
+          // ====================================================
+          "/zh/other/git/": [""],
+          "/zh/other/pwa/": [""],
         }
       },
     },

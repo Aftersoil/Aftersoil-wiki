@@ -20,9 +20,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "mocha": "^8.1.3",
-    "vuepress": "^1.5.4"
-  },
-  "dependencies": {
-    "i": "^0.3.6"
+    "vuepress": "^1.5.4",
+    "vuepress-plugin-smooth-scroll": "0.0.10"
   }
 }
