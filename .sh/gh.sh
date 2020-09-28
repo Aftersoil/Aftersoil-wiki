@@ -82,7 +82,7 @@ git commit -m "$commits"
 echo -e "$before'▶ 输入成功，commit 提交出成功'$rear"
 
 echo -e "$before'▶ 开始向远 gh-pages 提交合并.'$rear"
-git push origin "$gh_branch"
+git push origin gh-pages
 echo -e "$before'▶ 静态文件已成功提交，请转到GitHub查看是否提交成功.'$rear"
 
 sleep 1s
