@@ -4,7 +4,7 @@
 
 * [Git](/other/git/)
 
-## PWA Technology
+## PWA
 
 * [PWA](/other/pwa/)
 

@@ -85,7 +85,7 @@ module.exports = {
           {
             text: "Documents", link: "/doc",
             items: [
-              { text: "Hexo-theme-sitio", link: "/sitio/" }
+              // { text: "Hexo-theme-sitio", link: "/sitio/" },
             ]
           },
           { text: "Docs", link: "/basics/"},
@@ -93,8 +93,10 @@ module.exports = {
         ],
         // 导航
         sidebar: {
+          // ===================================================
           "/Aftersoil/": [""],
-          "/basics/": ["", "rearend", "other"],
+          "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
+          // ===================================================
           "/frontend/node/": [""],
           "/frontend/HTML/":["", "HTML", "table", "form"],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
@@ -110,6 +112,7 @@ module.exports = {
           // ====================================================
           "/other/git/": [""],
           "/other/pwa/": [""],
+          // ====================================================
         }
       },
   
@@ -124,7 +127,7 @@ module.exports = {
           {
             text: "文档", link: "/doc",
             items: [
-              { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
+              // { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
           { text: "笔记", link: "/zh/basics/"},
@@ -134,7 +137,7 @@ module.exports = {
         sidebar: {
           "/zh/Aftersoil/": [""],
           "/zh/Aftersoil/": [""],
-          "/zh/basics/": ["", "rearend", "other"],
+          "/zh/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/zh/frontend/node/": [""],
           "/zh/frontend/HTML/":["", "HTML", "table", "form"],
           "/zh/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
