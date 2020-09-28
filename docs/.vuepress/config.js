@@ -33,7 +33,10 @@ module.exports = {
   /**
    * 外部插件
    */
-  plugins: ['@vuepress/back-to-top', '@vuepress/pwa', ],
+  plugins: [
+    '@vuepress/back-to-top',
+    'vuepress-plugin-smooth-scroll'
+  ],
 
   /**
    * 默认语言英文
@@ -44,7 +47,13 @@ module.exports = {
       lang: "en-US",
       title: "Aftersoil-wiki",
       description: "后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki",
-
+      '@vuepress/pwa': {
+        serviceWorker: true,
+        updatePopup: {
+          message: "There is new content update",
+          buttonText: "Refresh"
+        }
+      },
     },
 
     // 中文
@@ -52,6 +61,13 @@ module.exports = {
       lang: "zh-CN",
       title: "后土维基",
       description: "后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki",
+      '@vuepress/pwa': {
+        serviceWorker: true,
+        updatePopup: {
+          message: "有新的内容更新",
+          buttonText: "刷新"
+        }
+      },
     },
   },
 
@@ -80,7 +96,7 @@ module.exports = {
         // 导航
         sidebar: {
           "/Aftersoil/": [""],
-          "/basics/": ["", /*"rearend",*/ "other"],
+          "/basics/": ["", "rearend", "other"],
           "/frontend/node/": [""],
           "/frontend/docsHtml/":[""],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
@@ -92,7 +108,9 @@ module.exports = {
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
           // "/frontend/nuxt/": [""],
+          // ====================================================
           "/other/git/": [""],
+          "/other/pwa/": [""],
         }
       },
   
@@ -110,12 +128,28 @@ module.exports = {
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
-          { text: "笔记", link: "/basics/"},
+          { text: "笔记", link: "/zh/basics/"},
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
         sidebar: {
-          "/zh/Aftersoil/": [""]
+          "/zh/Aftersoil/": [""],
+          "/zh/Aftersoil/": [""],
+          "/zh/basics/": ["", "rearend", "other"],
+          "/zh/frontend/node/": [""],
+          "/zh/frontend/docsHtml/":[""],
+          "/zh/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/zh/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
+          "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
+          // "/zh/frontend/docsH5C3/":[""],
+          // "/zh/frontend/javaScript/":[""],
+          // "/zh/frontend/javaScriptTop/":[""],
+          // "/zh/frontend/vue/":[""],
+          // "/zh/frontend/vuex/":[""],
+          // "/zh/frontend/nuxt/": [""],
+          // ====================================================
+          "/zh/other/git/": [""],
+          "/zh/other/pwa/": [""],
         }
       },
     },
