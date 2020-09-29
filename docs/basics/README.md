@@ -1,8 +1,8 @@
 # Front-end Documentation
 
 ## HTML + CSS
-- [HTML](/frontend/docsHtml/)
-- [CSS基础](/frontend/css/)
+- [HTML](/frontend/HTML/)
+- [CSS](/frontend/css/)
 - [BootStrap](/frontend/BootStrap/)
 
 <!-- ## HTML5+CSS3 -->
@@ -32,14 +32,12 @@
 <!-- ## Vuex
 - [vuex](/frontend/vuex/) -->
 
-
-
 <!-- ## Vuepress -->
 
 
 ## jQuery 
 
-- [jQuery 基础](/frontend/jQuery/)
+- [jQuery](/frontend/jQuery/)
 
 
 
