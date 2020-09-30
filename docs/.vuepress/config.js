@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
   /**
    * 头部自定义
@@ -46,6 +48,13 @@ module.exports = {
         }
       }
     },
+    // '@vuepress/last-updated': {
+    //   transformer: (timestamp, lang) => {
+    //     moment.locale(lang);
+    //     return moment(timestamp).format('YYYY/MM/DD HH:mm:ss')
+    //   }
+    // },
+    '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
     'vuepress-plugin-smooth-scroll': true
   },
@@ -103,7 +112,7 @@ module.exports = {
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
-          // "/frontend/javaScript/":[""],
+          "/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api"],
           // "/frontend/javaScriptTop/":[""],
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
