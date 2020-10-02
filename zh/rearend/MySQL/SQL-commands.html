@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SQL 命令 | 后土维基</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon/chrome-192x192.png">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+    <meta name="description" content="后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki">
+    <meta name="theme-color" content="#663403">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="baidu-site-verification" content="code-6uTgqJ41VJ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta HTTP-EQUIV="pragma" content="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" content="no-store, must-revalidate">
+    <meta HTTP-EQUIV="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+    <meta HTTP-EQUIV="expires" content="0">
+    <link rel="preload" href="/assets/css/0.styles.5dc1cf24.css" as="style"><link rel="preload" href="/assets/js/app.822cfc66.js" as="script"><link rel="preload" href="/assets/js/2.cfe6598b.js" as="script"><link rel="preload" href="/assets/js/106.28b32d4c.js" as="script"><link rel="preload" href="/assets/js/3.fb60532c.js" as="script"><link rel="prefetch" href="/assets/js/10.9d78825f.js"><link rel="prefetch" href="/assets/js/100.c765876e.js"><link rel="prefetch" href="/assets/js/101.f0673ec8.js"><link rel="prefetch" href="/assets/js/102.d2393214.js"><link rel="prefetch" href="/assets/js/103.1491c386.js"><link rel="prefetch" href="/assets/js/104.2f96ab62.js"><link rel="prefetch" href="/assets/js/105.e5c0e3dc.js"><link rel="prefetch" href="/assets/js/107.5fd8da5e.js"><link rel="prefetch" href="/assets/js/108.0bb3690e.js"><link rel="prefetch" href="/assets/js/109.63cd14b0.js"><link rel="prefetch" href="/assets/js/11.87313a1f.js"><link rel="prefetch" href="/assets/js/110.1f0458ce.js"><link rel="prefetch" href="/assets/js/12.91833bed.js"><link rel="prefetch" href="/assets/js/13.5eddee4b.js"><link rel="prefetch" href="/assets/js/14.0262b500.js"><link rel="prefetch" href="/assets/js/15.8f1c2393.js"><link rel="prefetch" href="/assets/js/16.181ba6ff.js"><link rel="prefetch" href="/assets/js/17.69b5b435.js"><link rel="prefetch" href="/assets/js/18.2064c8dd.js"><link rel="prefetch" href="/assets/js/19.40f29e2c.js"><link rel="prefetch" href="/assets/js/20.f89a4a51.js"><link rel="prefetch" href="/assets/js/21.9c41aff3.js"><link rel="prefetch" href="/assets/js/22.642684cd.js"><link rel="prefetch" href="/assets/js/23.1b5147ba.js"><link rel="prefetch" href="/assets/js/24.1664e18a.js"><link rel="prefetch" href="/assets/js/25.7ca8fd9a.js"><link rel="prefetch" href="/assets/js/26.70bc6223.js"><link rel="prefetch" href="/assets/js/27.a1091949.js"><link rel="prefetch" href="/assets/js/28.d00f916c.js"><link rel="prefetch" href="/assets/js/29.d376eb2a.js"><link rel="prefetch" href="/assets/js/30.470b2a76.js"><link rel="prefetch" href="/assets/js/31.f09e668a.js"><link rel="prefetch" href="/assets/js/32.c83fd1ba.js"><link rel="prefetch" href="/assets/js/33.586c0da7.js"><link rel="prefetch" href="/assets/js/34.38534a26.js"><link rel="prefetch" href="/assets/js/35.15eb8085.js"><link rel="prefetch" href="/assets/js/36.db494491.js"><link rel="prefetch" href="/assets/js/37.36d6230b.js"><link rel="prefetch" href="/assets/js/38.ff45be7b.js"><link rel="prefetch" href="/assets/js/39.182b5a48.js"><link rel="prefetch" href="/assets/js/4.20ddffa3.js"><link rel="prefetch" href="/assets/js/40.b8a33dc8.js"><link rel="prefetch" href="/assets/js/41.3de355f5.js"><link rel="prefetch" href="/assets/js/42.477687f5.js"><link rel="prefetch" href="/assets/js/43.f1363e9e.js"><link rel="prefetch" href="/assets/js/44.a36b0e38.js"><link rel="prefetch" href="/assets/js/45.bdabafa3.js"><link rel="prefetch" href="/assets/js/46.17b57ec8.js"><link rel="prefetch" href="/assets/js/47.1b29d52d.js"><link rel="prefetch" href="/assets/js/48.8c4cbe8a.js"><link rel="prefetch" href="/assets/js/49.1bc1f7f0.js"><link rel="prefetch" href="/assets/js/5.597b3655.js"><link rel="prefetch" href="/assets/js/50.c801b6ae.js"><link rel="prefetch" href="/assets/js/51.a49b2f13.js"><link rel="prefetch" href="/assets/js/52.e82c65f0.js"><link rel="prefetch" href="/assets/js/53.c109e4d5.js"><link rel="prefetch" href="/assets/js/54.c2fe3548.js"><link rel="prefetch" href="/assets/js/55.89322194.js"><link rel="prefetch" href="/assets/js/56.ca98c4fd.js"><link rel="prefetch" href="/assets/js/57.f2929f92.js"><link rel="prefetch" href="/assets/js/58.b82689ff.js"><link rel="prefetch" href="/assets/js/59.a5257216.js"><link rel="prefetch" href="/assets/js/6.716bb8d3.js"><link rel="prefetch" href="/assets/js/60.1fce2c83.js"><link rel="prefetch" href="/assets/js/61.c98c5914.js"><link rel="prefetch" href="/assets/js/62.b17ee2bc.js"><link rel="prefetch" href="/assets/js/63.6204be46.js"><link rel="prefetch" href="/assets/js/64.d70e9304.js"><link rel="prefetch" href="/assets/js/65.83834113.js"><link rel="prefetch" href="/assets/js/66.7fc2f42c.js"><link rel="prefetch" href="/assets/js/67.ebd98af2.js"><link rel="prefetch" href="/assets/js/68.7ea38251.js"><link rel="prefetch" href="/assets/js/69.6629db42.js"><link rel="prefetch" href="/assets/js/7.36f0e6f9.js"><link rel="prefetch" href="/assets/js/70.886e0f78.js"><link rel="prefetch" href="/assets/js/71.aa0b8ac6.js"><link rel="prefetch" href="/assets/js/72.147c8870.js"><link rel="prefetch" href="/assets/js/73.c023c28c.js"><link rel="prefetch" href="/assets/js/74.1543b1b0.js"><link rel="prefetch" href="/assets/js/75.3bbdfbe4.js"><link rel="prefetch" href="/assets/js/76.6555cf94.js"><link rel="prefetch" href="/assets/js/77.7991751d.js"><link rel="prefetch" href="/assets/js/78.9fce5924.js"><link rel="prefetch" href="/assets/js/79.e57da09f.js"><link rel="prefetch" href="/assets/js/8.f510cd1f.js"><link rel="prefetch" href="/assets/js/80.0a92fb8d.js"><link rel="prefetch" href="/assets/js/81.81388add.js"><link rel="prefetch" href="/assets/js/82.9a93f3cc.js"><link rel="prefetch" href="/assets/js/83.5d1c8c08.js"><link rel="prefetch" href="/assets/js/84.81e6ba36.js"><link rel="prefetch" href="/assets/js/85.a902abf2.js"><link rel="prefetch" href="/assets/js/86.90b8e838.js"><link rel="prefetch" href="/assets/js/87.d0b884a0.js"><link rel="prefetch" href="/assets/js/88.e83370ce.js"><link rel="prefetch" href="/assets/js/89.b0412ceb.js"><link rel="prefetch" href="/assets/js/9.4060c407.js"><link rel="prefetch" href="/assets/js/90.648c1a43.js"><link rel="prefetch" href="/assets/js/91.ed17a853.js"><link rel="prefetch" href="/assets/js/92.1f7f271e.js"><link rel="prefetch" href="/assets/js/93.cb0e3132.js"><link rel="prefetch" href="/assets/js/94.aa3aaf4d.js"><link rel="prefetch" href="/assets/js/95.659a6710.js"><link rel="prefetch" href="/assets/js/96.ff14d3ef.js"><link rel="prefetch" href="/assets/js/97.e3695f02.js"><link rel="prefetch" href="/assets/js/98.56f35a3c.js"><link rel="prefetch" href="/assets/js/99.ddd7e981.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.5dc1cf24.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zh/" class="home-link router-link-active"><!----> <span class="site-name">后土维基</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/doc.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/rearend/MySQL/SQL-commands.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/rearend/MySQL/SQL-commands.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/doc.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/rearend/MySQL/SQL-commands.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/rearend/MySQL/SQL-commands.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zh/rearend/MySQL/" aria-current="page" class="sidebar-link">MySQL 基础</a></li><li><a href="/zh/rearend/MySQL/data-storage.html" class="sidebar-link">数据的存储形式</a></li><li><a href="/zh/rearend/MySQL/SQL-commands.html" aria-current="page" class="active sidebar-link">SQL 命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#标准sql语句分类" class="sidebar-link">标准SQL语句分类</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#计算机存储字符" class="sidebar-link">计算机存储字符</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#mysql-中的列类型" class="sidebar-link">MySQL 中的列类型</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#数值型-引号可加可不加" class="sidebar-link">数值型  引号可加可不加</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#日期时间型-必须加引号" class="sidebar-link">日期时间型 必须加引号</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#字符串类型-必须加引号" class="sidebar-link">字符串类型 必须加引号</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#列约束" class="sidebar-link">列约束</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#主键约束-primary-key" class="sidebar-link">主键约束——PRIMARY KEY</a></li><li class="sidebar-sub-header"><a href="/zh/rearend/MySQL/SQL-commands.html#课后任务" class="sidebar-link">课后任务</a></li></ul></li><li><a href="/zh/rearend/MySQL/Attributes.html" class="sidebar-link">列约束</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="sql-命令"><a href="#sql-命令" class="header-anchor">#</a> SQL 命令</h1> <h2 id="标准sql语句分类"><a href="#标准sql语句分类" class="header-anchor">#</a> 标准SQL语句分类</h2> <div class="language-sql extra-class"><pre class="language-sql"><code>DDL: <span class="token keyword">Data</span> Define <span class="token keyword">Language</span> 定义数据结构
+ <span class="token keyword">CREATE</span><span class="token operator">/</span><span class="token keyword">DROP</span><span class="token operator">/</span><span class="token keyword">ALTER</span>
+
+DML: <span class="token keyword">Data</span> Manipulate <span class="token keyword">Language</span> 操作数据
+ <span class="token keyword">INSERT</span><span class="token operator">/</span><span class="token keyword">UPDATE</span><span class="token operator">/</span><span class="token keyword">DELETE</span>
+
+DQL: <span class="token keyword">Data</span> Query <span class="token keyword">Language</span> 查询数据
+ <span class="token keyword">SELECT</span>
+
+DCL: <span class="token keyword">Data</span> Control <span class="token keyword">Language</span> 控制用户权限
+ <span class="token keyword">GRANT</span><span class="token punctuation">(</span>授权<span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword">REVOKE</span><span class="token punctuation">(</span>收权<span class="token punctuation">)</span>
+</code></pre></div><h2 id="计算机存储字符"><a href="#计算机存储字符" class="header-anchor">#</a> 计算机存储字符</h2> <ul><li>如何存储英文字符</li></ul> <div class="custom-block tip"><p class="custom-block-title">提示</p> <ul><li><code>ASCII</code>: 总共有128个，对所有的英文字母和符号进行了编码。</li> <li><code>Latin-1</code>: 总共有256个，兼容<code>ASCII</code>码，同时对欧洲符号进行了编码。<code>MySQL</code>默认使用这种编码。</li></ul></div> <ul><li>如何存储中文字符</li></ul> <div class="custom-block tip"><p class="custom-block-title">提示</p> <ul><li><code>GB2312</code>: 对常用的6千多汉字进行了编码，兼容<code>ASCII</code>码</li> <li><code>GBK</code>: 对2万多汉字进行了编码，同时兼容<code>GB2312</code></li> <li><code>Unicode</code>: 对世界上主流国家的常用语言进行了编码，兼容<code>ASCII</code>码，不兼容<code>GB2312</code>、<code>GBK</code>。具体分为<code>utf-8</code>，<code>utf-16</code>，utf-32存储方案。</li></ul></div> <ul><li>解决<code>MySQL</code>存储中文乱码</li></ul> <div class="custom-block tip"><p class="custom-block-title">提示</p> <ul><li><code>SQL</code>脚本另存为的编码</li> <li>客户端连接服务器端的编码<code>(SET NAMES UTF8)</code></li> <li>服务器端创建数据库使用的编码<code>(CHARSET=UTF8)</code></li></ul></div> <h2 id="mysql-中的列类型"><a href="#mysql-中的列类型" class="header-anchor">#</a> MySQL 中的列类型</h2> <p>创建数据表的时候，指定的列可以存储的数据类型</p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">CREATE</span>  <span class="token keyword">TABLE</span>  t1<span class="token punctuation">(</span> nid  列类型 <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="数值型-引号可加可不加"><a href="#数值型-引号可加可不加" class="header-anchor">#</a> 数值型  引号可加可不加</h2> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token comment">-- 微整型，占1个字节，范围-128~127</span>
+<span class="token keyword">TINYINT</span>  
+
+<span class="token comment">-- 小整型，占2个字节，范围-32768~32767</span>
+<span class="token keyword">SMALLINT</span>  
+
+<span class="token comment">-- 整型，占4个字节，范围</span>
+<span class="token keyword">INT</span>  
+<span class="token comment">-- -2147483648~2147483647</span>
+
+<span class="token comment">-- 大整型，占8个字节，范围很大</span>
+<span class="token keyword">BIGINT</span>  
+
+<span class="token comment">-- 单精度浮点型，占4个字节，最多3.4E38,可能产生计算误差。</span>
+<span class="token keyword">FLOAT</span>  
+
+<span class="token comment">-- 双精度浮点型，占8个字节，范围比BIGINT大的多，可能产生计算误差。</span>
+<span class="token keyword">DOUBLE</span>  
+
+<span class="token comment">-- 定点小数，不会产生计算误差，M代表总的有效位数（不包含小数点），D代表小数点后的有效位数</span>
+<span class="token keyword">DECIMAL</span><span class="token punctuation">(</span>M<span class="token punctuation">,</span> D<span class="token punctuation">)</span>
+
+<span class="token comment">-- 布尔型，只有两个值TRUE、FALSE，真正存储的时候，列类型会变成TINYINT，TRUE和FALSE变成了1和0，使用的时候也可以直接插入1和0。常用于只有两个值的数据。 例如性别、是否在线、是否注册、是否为会员…</span>
+<span class="token keyword">BOOL</span>  
+</code></pre></div><div class="custom-block danger"><p class="custom-block-title">警告</p> <p>注意事项：<code>TRUE</code>和<code>FALSE</code>不能加引号</p></div> <h2 id="日期时间型-必须加引号"><a href="#日期时间型-必须加引号" class="header-anchor">#</a> 日期时间型 必须加引号</h2> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">DATE</span>  日期型  ‘<span class="token number">2019</span><span class="token operator">-</span><span class="token number">12</span><span class="token operator">-</span><span class="token number">31</span>’
+<span class="token keyword">TIME</span>  时间型   ’<span class="token number">14</span>:<span class="token number">53</span>:<span class="token number">30</span>’
+<span class="token keyword">DATETIME</span>  日期时间型   ‘<span class="token number">2019</span><span class="token operator">-</span><span class="token number">12</span><span class="token operator">-</span><span class="token number">31</span> <span class="token number">14</span>:<span class="token number">53</span>:<span class="token number">30</span>’
+</code></pre></div><h2 id="字符串类型-必须加引号"><a href="#字符串类型-必须加引号" class="header-anchor">#</a> 字符串类型 必须加引号</h2> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token comment">-- 变长字符串，不会产生空间浪费，操作速度相同比较慢，M最大值是65535</span>
+<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span>M<span class="token punctuation">)</span>  
+
+<span class="token comment">-- 定长字符串，可能存在空间浪费，操作速度比较快，M最大值是255；用于存储固定长度的数据，例如身份证号码、手机号码等。</span>
+<span class="token keyword">CHAR</span><span class="token punctuation">(</span>M<span class="token punctuation">)</span>  
+
+<span class="token comment">-- 大型变长字符串，M最多2G</span>
+<span class="token keyword">TEXT</span><span class="token punctuation">(</span>M<span class="token punctuation">)</span>  
+</code></pre></div><table><thead><tr><th style="text-align:center;"></th> <th style="text-align:center;"><code>CHAR(5)</code></th> <th style="text-align:center;"><code>VARCHAR(5)</code></th></tr></thead> <tbody><tr><td style="text-align:center;">a</td> <td style="text-align:center;">a\0\0\0\0</td> <td style="text-align:center;">a\0</td></tr> <tr><td style="text-align:center;">ab</td> <td style="text-align:center;">ab\0\0\0</td> <td style="text-align:center;">ab\0</td></tr> <tr><td style="text-align:center;">一</td> <td style="text-align:center;">一\0\0\0\0</td> <td style="text-align:center;">一\0</td></tr> <tr><td style="text-align:center;">一二</td> <td style="text-align:center;">一二\0\0\0</td> <td style="text-align:center;">一二\0</td></tr></tbody></table> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token comment">-- TB  GB  MB  KB  Byte  Bit</span>
+<span class="token comment">-- 1Byte = 8Bit(位)</span>
+
+<span class="token keyword">CREATE</span>  <span class="token keyword">TABLE</span>  t1<span class="token punctuation">(</span>
+  id  <span class="token keyword">INT</span><span class="token punctuation">,</span>
+  age  <span class="token keyword">TINYINT</span><span class="token punctuation">,</span>
+  commentCount  <span class="token keyword">INT</span><span class="token punctuation">,</span>
+  salary <span class="token keyword">DECIMAL</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span>   <span class="token comment">-- 999999.99</span>
+  phone  <span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  article  <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">5000</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  sex  <span class="token keyword">BOOL</span><span class="token punctuation">,</span>
+  ctime  <span class="token keyword">DATETIME</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><details class="custom-block details"><summary>练习</summary> <ul><li>编写脚本文件<code>02_xz.sql</code>，先丢弃再创建数据库，设置存储的编码为<code>utf8</code>，进入该数据库，创建保存笔记本数据的表<code>laptop</code>，包含编号<code>lid</code>，标题<code>title</code>，价格<code>price</code>，库存量<code>stockCount</code>，上架时间<code>shelfTime</code>，是否显示在首页<code>isIndex</code>；插入若干条数据。</li> <li>创建保存员工的表<code>temp</code>，包含编号<code>eid</code>，姓名<code>ename</code>，性别<code>sex</code>，生日<code>birthday</code>，工资<code>salary</code>，所属部门编号<code>deptId</code>，插入若干条数据。</li></ul></details> <h2 id="列约束"><a href="#列约束" class="header-anchor">#</a> 列约束</h2> <p>MySQL 在插入数据的时候，进行特定的验证；只有满足条件才允许插入，否则被认为是非法插入。</p> <p>例如：一个人的性别只能是男或者女，一个人的成绩0~100</p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">CREATE</span>  <span class="token keyword">TABLE</span>  t1<span class="token punctuation">(</span> eid 列类型 列约束 <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="主键约束-primary-key"><a href="#主键约束-primary-key" class="header-anchor">#</a> 主键约束——PRIMARY KEY</h2> <p>声明了主键约束的列上值不能出现重复，一个表中只能有一个主键，通常加在编号列，表中查询的记录会按照编号从小到大排序，加快查找速度。</p> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>注意事项：声明了主键约束后就不允许在插入NULL值。</p> <div class="language- extra-class"><pre class="language-text"><code>NULL 表示空，在插入数据时，无法确定要保存的数据。例如：无法确定员工的生日，工资都可以使用NULL
+</code></pre></div></div> <h2 id="课后任务"><a href="#课后任务" class="header-anchor">#</a> 课后任务</h2> <details class="custom-block details"><summary>练习</summary> <ul><li>创建保存笔记本分类的表<code>laptop_family</code>，包含<code>fid</code>，<code>fname</code>名称，<code>laptopCount</code>数量，插入若干条数据</li> <li>创建保存笔记本数据的表<code>laptop</code>，包含<code>lid</code>，<code>title</code>，<code>price</code>，<code>spec</code>规格，<code>detail</code>详情，<code>shelfTime</code>上架时间，<code>isOnsale</code>是否在售，<code>familyId</code> 所属分类编号； 插入若干条数据</li> <li><strong>)预习mysql中的列类型</strong></li></ul></details></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/rearend/MySQL/data-storage.html" class="prev">
+        数据的存储形式
+      </a></span> <span class="next"><a href="/zh/rearend/MySQL/Attributes.html">
+        列约束
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.822cfc66.js" defer></script><script src="/assets/js/2.cfe6598b.js" defer></script><script src="/assets/js/106.28b32d4c.js" defer></script><script src="/assets/js/3.fb60532c.js" defer></script>
+  </body>
+</html>
