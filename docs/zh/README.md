@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /Aftersoil.svg
+heroImage: https://images.aftersoil.xyz/aftersoil/home/Aftersoil.svg
 heroText: 后土维基
 tagline: 欢迎来到后土维基
 actionText: 快速上手 →

@@ -12,22 +12,26 @@
 
 | 文档名称 | 标签分类 | 更新状态 |
 | ------- | :------- | :-----: |
-| <a href="https://wiki.aftersoil.xyz/frontend/docsHtml/" target="_blank">HTML</a> | HTML + CSS | 待完善 👊 |
-| <a href="https://wiki.aftersoil.xyz/frontend/css/" target="_blank">CSS基础</a> | HTML + CSS | 待完善 👊 |
-| <a href="https://wiki.aftersoil.xyz/frontend/BootStrap/" target="_blank">BootStrap</a> | HTML + CSS | 待完善 👊 |
+| [HTML](https://wiki.aftersoil.xyz/frontend/HTML/) | HTML + CSS | 待完善 👊 |
+| [CSS基础](https://wiki.aftersoil.xyz/frontend/CSS/) | HTML + CSS | 待完善 👊 |
+| [BootStrap 基础](https://wiki.aftersoil.xyz/frontend/BootStrap/) | HTML + CSS | 待完善 👊 |
+| [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/javaScript/) | JavaScript | 待完善 👊 |
+| [jQuery 基础](https://wiki.aftersoil.xyz/frontend/jQuery/) | jQuery | 待完善 👊 |
+| [webpack](https://wiki.aftersoil.xyz/frontend/webpack/) | webpack | 待完善 👊 |
 
 ## 后端文档
 
 | 文档名称 | 文档签分类 | 更新状态 |
 | ------- | --------- | :------: |
-|  |  |  |
+| [MySQL 基础](https://wiki.aftersoil.xyz/rearend/MySQL/) | MySQL | 待完善 👊 |
 
 ## 其它文档
 
 | 文档名称 | 文档签分类 | 更新状态 |
 | ------- | --------- | :------: |
-| <a href="https://wiki.aftersoil.xyz/other/git/" target="_blank">Git</a> | Git | 待添加   😄 |
-| <a href="https://wiki.aftersoil.xyz/other/pwa/" target="_blank">pwa</a> | pwa | 待添加   😄 |
+| [Git](https://wiki.aftersoil.xyz/other/git/) | Git | 待添加 😄 |
+| [pwa](https://wiki.aftersoil.xyz/other/pwa/) | pwa | 待添加 😄 |
+| [Download](https://wiki.aftersoil.xyz/other/Download/) | pwa | 待添加 😄 |
 
 ## 前后端面试题
 
@@ -35,11 +39,18 @@
 | ------- | --------- | :------: |
 |  |  |  |
 
+## 代码功能
+
+| 文档名称 | 文档签分类 | 更新状态 |
+| ------- | --------- | :------: |
+|  |  |  |
+
+
 <!-- 标签解释
-  已完结   ✌️
-  待完善   👊
-  持续更新中  ✊
-  待添加   😄
+  已完结 ✌️
+  待完善 👊
+  持续更新中 ✊
+  待添加 😄
  -->
 
 ## 贡献题目

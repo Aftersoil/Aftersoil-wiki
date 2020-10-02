@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
   /**
    * 头部自定义
@@ -46,6 +48,13 @@ module.exports = {
         }
       }
     },
+    // '@vuepress/last-updated': {
+    //   transformer: (timestamp, lang) => {
+    //     moment.locale(lang);
+    //     return moment(timestamp).format('YYYY/MM/DD HH:mm:ss')
+    //   }
+    // },
+    '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
     'vuepress-plugin-smooth-scroll': true
   },
@@ -93,29 +102,31 @@ module.exports = {
         ],
         // 导航
         sidebar: {
-          // ===================================================
+          // =========================== 首页配置 ==========================
           "/Aftersoil/": [""],
+          // =========================== 前端文档配置 ========================
           "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
-          // ===================================================
           "/frontend/node/": [""],
           "/frontend/HTML/":["", "HTML", "table", "form"],
           "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
-          // "/frontend/javaScript/":[""],
+          "/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
           // "/frontend/javaScriptTop/":[""],
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
           // "/frontend/nuxt/": [""],
           "/frontend/webpack/": ["", "install"],
-          // ====================================================
+          // =========================== 后端文档配置 ========================
+          "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
+          // =========================== 其它文档配置 ===========================
           "/other/git/": [""],
           "/other/pwa/": [""],
-          // ====================================================
+          "/other/download/": ["", "Rear-end", "Other"],
         }
       },
-  
+
       // 中文
       "/zh/": {
         selectText: '选择语言',
@@ -135,8 +146,9 @@ module.exports = {
         ],
         // 导航
         sidebar: {
+          // =========================== 首页配置 ==========================
           "/zh/Aftersoil/": [""],
-          "/zh/Aftersoil/": [""],
+          // =========================== 前端文档配置 ========================
           "/zh/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/zh/frontend/node/": [""],
           "/zh/frontend/HTML/":["", "HTML", "table", "form"],
@@ -144,15 +156,18 @@ module.exports = {
           "/zh/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/zh/frontend/docsH5C3/":[""],
-          // "/zh/frontend/javaScript/":[""],
+          "/zh/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
           // "/zh/frontend/javaScriptTop/":[""],
           // "/zh/frontend/vue/":[""],
           // "/zh/frontend/vuex/":[""],
           // "/zh/frontend/nuxt/": [""],
           "/zh/frontend/webpack/": ["", "install"],
-          // ====================================================
+          // =========================== 后端文档配置 ========================
+          "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
+          // =========================== 其它文档配置 ===========================
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],
+          "/zh/other/download/": ["", "Rear-end", "Other"],
         }
       },
     },

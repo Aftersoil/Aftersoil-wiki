@@ -8,3 +8,7 @@
 
 * [PWA 介绍](/zh/other/pwa/)
 
+## 下载
+
+- [下载](/zh/other/downloads/)
+
