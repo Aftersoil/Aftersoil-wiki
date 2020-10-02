@@ -9,6 +9,11 @@
 
 - [jQuery 基础](/zh/frontend/jQuery/)
 
+## JavaScript
+
+- [javaScript](/zh/frontend/javaScript/)
+
+
 ## webpack
 
 - [webpack](/frontend/webpack/)

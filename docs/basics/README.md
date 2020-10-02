@@ -12,7 +12,7 @@
 
 ## JavaScript
 
-- [javaScript](/frontend/javaScript)
+- [javaScript](/frontend/javaScript/)
 
 <!-- ## JavaScriptTop -->
 

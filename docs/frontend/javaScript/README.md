@@ -14,9 +14,7 @@
 - 第三方框架、库
 - 实用的项目
 
-**程序员必做50题**
-
-[https://wenku.baidu.com/view/af66e2f14afe04a1b071de42.html](https://wenku.baidu.com/view/af66e2f14afe04a1b071de42.html)
+**[程序员必做50题](https://wenku.baidu.com/view/af66e2f14afe04a1b071de42.html)**
 
 [《JavaScript高级程序设计》第3版](https://item.jd.com/10020932414153.html)
 

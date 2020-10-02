@@ -8,3 +8,6 @@
 
 * [PWA](/other/pwa/)
 
+## Download
+
+- [Download](/other/download/)
