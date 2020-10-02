@@ -119,14 +119,14 @@ module.exports = {
           // "/frontend/nuxt/": [""],
           "/frontend/webpack/": ["", "install"],
           // =========================== 后端文档配置 ========================
-          "/rearend/MySQL/": [""],
+          "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
           "/other/git/": [""],
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other"],
         }
       },
-  
+
       // 中文
       "/zh/": {
         selectText: '选择语言',
@@ -163,7 +163,7 @@ module.exports = {
           // "/zh/frontend/nuxt/": [""],
           "/zh/frontend/webpack/": ["", "install"],
           // =========================== 后端文档配置 ========================
-          "/zh/rearend/MySQL/": [""],
+          "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],

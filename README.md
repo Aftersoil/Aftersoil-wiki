@@ -12,7 +12,7 @@
 
 | 文档名称 | 标签分类 | 更新状态 |
 | ------- | :------- | :-----: |
-| [HTML](https://wiki.aftersoil.xyz/frontend/Html/) | HTML + CSS | 待完善 👊 |
+| [HTML](https://wiki.aftersoil.xyz/frontend/HTML/) | HTML + CSS | 待完善 👊 |
 | [CSS基础](https://wiki.aftersoil.xyz/frontend/CSS/) | HTML + CSS | 待完善 👊 |
 | [BootStrap 基础](https://wiki.aftersoil.xyz/frontend/BootStrap/) | HTML + CSS | 待完善 👊 |
 | [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/javaScript/) | JavaScript | 待完善 👊 |
