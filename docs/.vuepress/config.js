@@ -94,7 +94,7 @@ module.exports = {
           {
             text: "Documents", link: "/doc",
             items: [
-              // { text: "Hexo-theme-sitio", link: "/sitio/" },
+              { text: "Hexo-theme-sitio", link: "/sitio/" },
             ]
           },
           { text: "Docs", link: "/basics/"},
@@ -138,7 +138,7 @@ module.exports = {
           {
             text: "文档", link: "/doc",
             items: [
-              // { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
+              { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
           { text: "笔记", link: "/zh/basics/"},
