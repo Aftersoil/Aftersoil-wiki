@@ -15,7 +15,8 @@
 | [HTML](https://wiki.aftersoil.xyz/frontend/HTML/) | HTML + CSS | 待完善 👊 |
 | [CSS基础](https://wiki.aftersoil.xyz/frontend/CSS/) | HTML + CSS | 待完善 👊 |
 | [BootStrap 基础](https://wiki.aftersoil.xyz/frontend/BootStrap/) | HTML + CSS | 待完善 👊 |
-| [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/javaScript/) | JavaScript | 待完善 👊 |
+| [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/JavaScript/) | JavaScript | 待完善 👊 |
+| [Ajax](https://wiki.aftersoil.xyz/frontend/Ajax/) | JavaScript | 持续更新中 ✌️ ✊ |
 | [jQuery 基础](https://wiki.aftersoil.xyz/frontend/jQuery/) | jQuery | 待完善 👊 |
 | [webpack](https://wiki.aftersoil.xyz/frontend/webpack/) | webpack | 待完善 👊 |
 
@@ -51,7 +52,15 @@
   待完善 👊
   持续更新中 ✊
   待添加 😄
- -->
+
+插入图片方法
+  ![alt text](https://images.aftersoil.xyz/)
+
+插入视频方法
+  <div class="video">
+    <video src="https://images.aftersoil.xyz/" controls preload></video>
+  </div>
+-->
 
 ## 贡献题目
 

@@ -9,10 +9,13 @@
 
 <!-- - [html5+css3](/frontend/docsH5C3) -->
 
-
 ## JavaScript
 
-- [javaScript](/frontend/javaScript/)
+- [JavaScript](/frontend/JavaScript/)
+
+## Ajax
+
+- [Ajax](/frontend/ajax/)
 
 <!-- ## JavaScriptTop -->
 

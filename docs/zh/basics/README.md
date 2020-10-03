@@ -5,14 +5,17 @@
 - [CSS基础](/zh/frontend/css/)
 - [BootStrap](/zh/frontend/BootStrap/)
 
+## JavaScript
+
+- [JavaScript 基础](/zh/frontend/JavaScript/)
+
+## Ajax
+
+- [Ajax](/zh/frontend/ajax/)
+
 ## jQuery 
 
 - [jQuery 基础](/zh/frontend/jQuery/)
-
-## JavaScript
-
-- [javaScript](/zh/frontend/javaScript/)
-
 
 ## webpack
 
