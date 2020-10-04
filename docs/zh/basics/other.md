@@ -10,5 +10,5 @@
 
 ## 下载
 
-- [下载](/zh/other/downloads/)
+- [下载](/zh/other/download/)
 
