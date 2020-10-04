@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>xz 项目(后端) | 后土维基</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon/chrome-192x192.png">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+    <meta name="description" content="后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki">
+    <meta name="theme-color" content="#663403">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="baidu-site-verification" content="code-6uTgqJ41VJ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="preload" href="/assets/css/0.styles.5dc1cf24.css" as="style"><link rel="preload" href="/assets/js/app.c919360d.js" as="script"><link rel="preload" href="/assets/js/2.cfe6598b.js" as="script"><link rel="preload" href="/assets/js/79.a8949abe.js" as="script"><link rel="preload" href="/assets/js/3.fb60532c.js" as="script"><link rel="prefetch" href="/assets/js/10.9d78825f.js"><link rel="prefetch" href="/assets/js/100.d2dad135.js"><link rel="prefetch" href="/assets/js/101.6ff6b4a7.js"><link rel="prefetch" href="/assets/js/102.8e26a8b7.js"><link rel="prefetch" href="/assets/js/103.a4a8ac75.js"><link rel="prefetch" href="/assets/js/104.fbd4b168.js"><link rel="prefetch" href="/assets/js/105.0c0339e3.js"><link rel="prefetch" href="/assets/js/106.1d055d99.js"><link rel="prefetch" href="/assets/js/107.2257737f.js"><link rel="prefetch" href="/assets/js/108.73959bdc.js"><link rel="prefetch" href="/assets/js/109.ae19a077.js"><link rel="prefetch" href="/assets/js/11.87313a1f.js"><link rel="prefetch" href="/assets/js/110.a1f1c1dc.js"><link rel="prefetch" href="/assets/js/111.6465a194.js"><link rel="prefetch" href="/assets/js/112.3e6fe730.js"><link rel="prefetch" href="/assets/js/113.a9941913.js"><link rel="prefetch" href="/assets/js/114.0e32aa11.js"><link rel="prefetch" href="/assets/js/115.e7e0d3e9.js"><link rel="prefetch" href="/assets/js/116.95d9a008.js"><link rel="prefetch" href="/assets/js/117.cb7bbfaf.js"><link rel="prefetch" href="/assets/js/118.7ba1f140.js"><link rel="prefetch" href="/assets/js/119.7f79f9f3.js"><link rel="prefetch" href="/assets/js/12.c5f33911.js"><link rel="prefetch" href="/assets/js/120.514762bd.js"><link rel="prefetch" href="/assets/js/121.1da526c7.js"><link rel="prefetch" href="/assets/js/122.57b4788c.js"><link rel="prefetch" href="/assets/js/123.48dbd3b7.js"><link rel="prefetch" href="/assets/js/124.a6163ebc.js"><link rel="prefetch" href="/assets/js/125.691092b8.js"><link rel="prefetch" href="/assets/js/126.07595f74.js"><link rel="prefetch" href="/assets/js/127.4e4c9873.js"><link rel="prefetch" href="/assets/js/128.24c85d27.js"><link rel="prefetch" href="/assets/js/13.5eddee4b.js"><link rel="prefetch" href="/assets/js/14.63c5afc6.js"><link rel="prefetch" href="/assets/js/15.9e1d8cc1.js"><link rel="prefetch" href="/assets/js/16.4739bf22.js"><link rel="prefetch" href="/assets/js/17.69b5b435.js"><link rel="prefetch" href="/assets/js/18.749ee5d7.js"><link rel="prefetch" href="/assets/js/19.914e97b0.js"><link rel="prefetch" href="/assets/js/20.7442865f.js"><link rel="prefetch" href="/assets/js/21.96549a86.js"><link rel="prefetch" href="/assets/js/22.0588185c.js"><link rel="prefetch" href="/assets/js/23.4b77449c.js"><link rel="prefetch" href="/assets/js/24.a7a3918b.js"><link rel="prefetch" href="/assets/js/25.35fffe4d.js"><link rel="prefetch" href="/assets/js/26.3b466608.js"><link rel="prefetch" href="/assets/js/27.a2effd42.js"><link rel="prefetch" href="/assets/js/28.592553df.js"><link rel="prefetch" href="/assets/js/29.c5d28ae1.js"><link rel="prefetch" href="/assets/js/30.3559a991.js"><link rel="prefetch" href="/assets/js/31.43e950c4.js"><link rel="prefetch" href="/assets/js/32.b9b7d74f.js"><link rel="prefetch" href="/assets/js/33.27ac7950.js"><link rel="prefetch" href="/assets/js/34.896424b8.js"><link rel="prefetch" href="/assets/js/35.f984d267.js"><link rel="prefetch" href="/assets/js/36.8df45655.js"><link rel="prefetch" href="/assets/js/37.971da632.js"><link rel="prefetch" href="/assets/js/38.e505f3b1.js"><link rel="prefetch" href="/assets/js/39.7b96843d.js"><link rel="prefetch" href="/assets/js/4.706e6bd4.js"><link rel="prefetch" href="/assets/js/40.512fe847.js"><link rel="prefetch" href="/assets/js/41.97450f3d.js"><link rel="prefetch" href="/assets/js/42.45a5c43e.js"><link rel="prefetch" href="/assets/js/43.6ea77d80.js"><link rel="prefetch" href="/assets/js/44.804b034d.js"><link rel="prefetch" href="/assets/js/45.ac15cbd1.js"><link rel="prefetch" href="/assets/js/46.6c93d44b.js"><link rel="prefetch" href="/assets/js/47.5052f6a0.js"><link rel="prefetch" href="/assets/js/48.c114b0f2.js"><link rel="prefetch" href="/assets/js/49.069d6f0f.js"><link rel="prefetch" href="/assets/js/5.597b3655.js"><link rel="prefetch" href="/assets/js/50.174ca919.js"><link rel="prefetch" href="/assets/js/51.298184ca.js"><link rel="prefetch" href="/assets/js/52.736528ea.js"><link rel="prefetch" href="/assets/js/53.b2856629.js"><link rel="prefetch" href="/assets/js/54.43b9a777.js"><link rel="prefetch" href="/assets/js/55.0d8a130b.js"><link rel="prefetch" href="/assets/js/56.6b1d373e.js"><link rel="prefetch" href="/assets/js/57.5952d045.js"><link rel="prefetch" href="/assets/js/58.5dbcd8aa.js"><link rel="prefetch" href="/assets/js/59.8b47da48.js"><link rel="prefetch" href="/assets/js/6.716bb8d3.js"><link rel="prefetch" href="/assets/js/60.a8a717bf.js"><link rel="prefetch" href="/assets/js/61.4a97323d.js"><link rel="prefetch" href="/assets/js/62.29983f38.js"><link rel="prefetch" href="/assets/js/63.0ec8270b.js"><link rel="prefetch" href="/assets/js/64.814ed307.js"><link rel="prefetch" href="/assets/js/65.96244c21.js"><link rel="prefetch" href="/assets/js/66.b36e37c8.js"><link rel="prefetch" href="/assets/js/67.aeafa3cd.js"><link rel="prefetch" href="/assets/js/68.a8495367.js"><link rel="prefetch" href="/assets/js/69.adb5e105.js"><link rel="prefetch" href="/assets/js/7.36f0e6f9.js"><link rel="prefetch" href="/assets/js/70.49a3c446.js"><link rel="prefetch" href="/assets/js/71.1ec29670.js"><link rel="prefetch" href="/assets/js/72.13fd2ab3.js"><link rel="prefetch" href="/assets/js/73.0d65d644.js"><link rel="prefetch" href="/assets/js/74.75a227ef.js"><link rel="prefetch" href="/assets/js/75.c979f3e6.js"><link rel="prefetch" href="/assets/js/76.a64b5b79.js"><link rel="prefetch" href="/assets/js/77.580cd7f5.js"><link rel="prefetch" href="/assets/js/78.e7598459.js"><link rel="prefetch" href="/assets/js/8.c2b2929c.js"><link rel="prefetch" href="/assets/js/80.cd2eccea.js"><link rel="prefetch" href="/assets/js/81.6121e535.js"><link rel="prefetch" href="/assets/js/82.5d442b71.js"><link rel="prefetch" href="/assets/js/83.1302b19b.js"><link rel="prefetch" href="/assets/js/84.c1c9b929.js"><link rel="prefetch" href="/assets/js/85.f97b2fe1.js"><link rel="prefetch" href="/assets/js/86.b3d08a6a.js"><link rel="prefetch" href="/assets/js/87.18316d5b.js"><link rel="prefetch" href="/assets/js/88.b6deddf0.js"><link rel="prefetch" href="/assets/js/89.a0df0d49.js"><link rel="prefetch" href="/assets/js/9.4060c407.js"><link rel="prefetch" href="/assets/js/90.9051520b.js"><link rel="prefetch" href="/assets/js/91.b264924d.js"><link rel="prefetch" href="/assets/js/92.8893e159.js"><link rel="prefetch" href="/assets/js/93.e9c32a4c.js"><link rel="prefetch" href="/assets/js/94.8811c628.js"><link rel="prefetch" href="/assets/js/95.d5bb491d.js"><link rel="prefetch" href="/assets/js/96.d24f1ecd.js"><link rel="prefetch" href="/assets/js/97.56ce295b.js"><link rel="prefetch" href="/assets/js/98.11f4c932.js"><link rel="prefetch" href="/assets/js/99.e3b10835.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.5dc1cf24.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zh/" class="home-link router-link-active"><!----> <span class="site-name">后土维基</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/sitio/" class="nav-link">
+  Hexo-theme-sitio
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/Express/xz.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/frontend/Express/xz.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/sitio/" class="nav-link">
+  Hexo-theme-sitio
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/Express/xz.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/frontend/Express/xz.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zh/frontend/Express/" aria-current="page" class="sidebar-link">Express</a></li><li><a href="/zh/frontend/Express/middleware.html" class="sidebar-link">中间件</a></li><li><a href="/zh/frontend/Express/xz.html" aria-current="page" class="active sidebar-link">xz 项目(后端)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#app-js" class="sidebar-link">app.js</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#使用路由" class="sidebar-link">使用路由</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#注册路由" class="sidebar-link">注册路由</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#登陆路由" class="sidebar-link">登陆路由</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#检索用户" class="sidebar-link">检索用户</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#修改用户" class="sidebar-link">修改用户</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#用户列表" class="sidebar-link">用户列表</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#删除用户" class="sidebar-link">删除用户</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/Express/xz.html#课后任务" class="sidebar-link">课后任务</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="xz-项目-后端"><a href="#xz-项目-后端" class="header-anchor">#</a> xz 项目(后端)</h1> <p>使用技术 <a href="/zh/rearend/MySQL/">NodeJS</a>，<a href="/zh/frontend/Express/" class="router-link-active">Express</a>，<a href="/zh/rearend/MySQL/">MySQL</a><br>
+xz 项目后端接口开发，<a href="#%E6%B3%A8%E5%86%8C%E8%B7%AF%E7%94%B1">注册路由</a>，<a href="#%E7%99%BB%E9%99%86%E8%B7%AF%E7%94%B1">登陆路由</a>，<a href="#%E6%A3%80%E7%B4%A2%E7%94%A8%E6%88%B7">检索用户</a>，<a href="#%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7">修改用户</a>，<a href="#%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8">用户列表</a>，<a href="#%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7">删除用户</a></p> <p><strong><a href="/other/download/Rear-end.html">用户后端操作代码</a></strong></p> <h2 id="app-js"><a href="#app-js" class="header-anchor">#</a> app.js</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 引入body-parser中间件</span>
+<span class="token keyword">const</span> bodyParser <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'body-parser'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 引入用户路由器</span>
+<span class="token keyword">const</span> userRouter <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./routes/user.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 创建web服务器</span>
+<span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 监听端口</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8080</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 托管静态资源到public目录下</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span> express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'public'</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 使用body-parser中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span> bodyParser<span class="token punctuation">.</span><span class="token function">urlencoded</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  extended<span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 使用路由器，挂载到/user下</span>
+<span class="token comment">// /user/reg</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> userRouter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ul><li><a href="/frontend/Express/middleware.html#使用连接池">数据库连接池</a></li></ul> <h2 id="使用路由"><a href="#使用路由" class="header-anchor">#</a> 使用路由</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 引入连接池模块</span>
+<span class="token keyword">const</span> pool <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../pool.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 创建路由器对象</span>
+<span class="token keyword">var</span> router <span class="token operator">=</span> express<span class="token punctuation">.</span><span class="token function">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="注册路由"><a href="#注册路由" class="header-anchor">#</a> 注册路由</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/reg'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取post请求的数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 验证每一项是否为空</span>
+  <span class="token comment">// 如果用户名为空</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>uname<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">401</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'uname required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  <span class="token comment">// 结束函数执行</span>
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>upwd<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">402</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'upwd required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>phone<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">403</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'phone required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>email<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">404</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'email required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">// 执行SQL语句</span>
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'INSERT INTO xz_user SET ?'</span><span class="token punctuation">,</span><span class="token punctuation">[</span>obj<span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span>result</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 如果插入成功</span>
+	  <span class="token keyword">if</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span>affectedRows <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        code<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'reg suc'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="登陆路由"><a href="#登陆路由" class="header-anchor">#</a> 登陆路由</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/login'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 验证数据是否为空</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>uname<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>code<span class="token operator">:</span><span class="token number">401</span><span class="token punctuation">,</span>msg<span class="token operator">:</span><span class="token string">'uname required'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>upwd<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>code<span class="token operator">:</span><span class="token number">402</span><span class="token punctuation">,</span>msg<span class="token operator">:</span><span class="token string">'upwd required'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 执行SQL语句</span>
+  <span class="token comment">//查询是否有用户名和密码同时的数据</span>
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT * FROM xz_user WHERE uname=? AND upwd=?'</span><span class="token punctuation">,</span><span class="token punctuation">[</span>obj<span class="token punctuation">.</span>uname<span class="token punctuation">,</span> obj<span class="token punctuation">.</span>upwd<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+    <span class="token comment">// 判断登陆成功还是失败</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token comment">// 有元素，成功</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        code<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span> 
+        msg<span class="token operator">:</span> <span class="token string">'login suc'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+      <span class="token comment">// 没有元素，失败</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        code<span class="token operator">:</span> <span class="token number">201</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'uname or upwd error'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="检索用户"><a href="#检索用户" class="header-anchor">#</a> 检索用户</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/detail'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>query<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 验证数据是否为空--15:14</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>uid<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">401</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'uid required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 执行SQL语句</span>
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT * FROM xz_user WHERE uid=?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>obj<span class="token punctuation">.</span>uid<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="修改用户"><a href="#修改用户" class="header-anchor">#</a> 修改用户</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/update'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 验证数据为空</span>
+  <span class="token comment">// 遍历对象，访问每个属性</span>
+  <span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">400</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> key <span class="token keyword">in</span> obj<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	  i<span class="token operator">++</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> obj<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token comment">// 如果属性值为空，提示属性名必须</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        code<span class="token operator">:</span> i<span class="token punctuation">,</span> 
+        msg<span class="token operator">:</span> key <span class="token operator">+</span> <span class="token string">' required'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      <span class="token keyword">return</span><span class="token punctuation">;</span>
+	  <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 执行SQL语句</span>
+  <span class="token comment">// 取出用户编号</span>
+  <span class="token keyword">var</span> uid <span class="token operator">=</span> obj<span class="token punctuation">.</span>uid<span class="token punctuation">;</span>
+  <span class="token comment">// 删除对象中的编号属性</span>
+  <span class="token keyword">delete</span> obj<span class="token punctuation">.</span>uid<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'UPDATE xz_user SET ? WHERE uid=?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>obj<span class="token punctuation">,</span> uid<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">//判断是否修改成功</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span>affectedRows<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>
+        <span class="token punctuation">{</span>code<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'update suc'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>
+        <span class="token punctuation">{</span>code<span class="token operator">:</span> <span class="token number">201</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'update error'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="用户列表"><a href="#用户列表" class="header-anchor">#</a> 用户列表</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/list'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>query<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 验证为空，设置默认值</span>
+  <span class="token keyword">var</span> count <span class="token operator">=</span> obj<span class="token punctuation">.</span>count<span class="token punctuation">;</span>
+  <span class="token keyword">var</span> pno <span class="token operator">=</span> obj<span class="token punctuation">.</span>pno<span class="token punctuation">;</span>
+
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>count<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    count <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>pno<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    pno <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 转整型</span>
+  count <span class="token operator">=</span> <span class="token function">parseInt</span><span class="token punctuation">(</span>count<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  pno <span class="token operator">=</span> <span class="token function">parseInt</span><span class="token punctuation">(</span>pno<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 计算开始</span>
+  <span class="token keyword">var</span> start <span class="token operator">=</span> <span class="token punctuation">(</span>pno<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> count<span class="token punctuation">;</span>
+
+  <span class="token comment">// 执行SQL语句</span>
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT * FROM xz_user LIMIT ?,?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>start<span class="token punctuation">,</span> count<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="删除用户"><a href="#删除用户" class="header-anchor">#</a> 删除用户</h2> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/delete'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取数据</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> req<span class="token punctuation">.</span>query<span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 是否为空</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>obj<span class="token punctuation">.</span>uid<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      code<span class="token operator">:</span> <span class="token number">401</span><span class="token punctuation">,</span>
+      msg<span class="token operator">:</span> <span class="token string">'uid required'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 执行SQL语句</span>
+  pool<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'DELETE FROM xz_user WHERE uid=?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>obj<span class="token punctuation">.</span>uid<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">throw</span> err<span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token comment">// 判断是否删除成功</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span>affectedRows <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>
+        <span class="token punctuation">{</span>code<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'del suc'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+      res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>
+        <span class="token punctuation">{</span>code<span class="token operator">:</span> <span class="token number">201</span><span class="token punctuation">,</span>
+        msg<span class="token operator">:</span> <span class="token string">'del err'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">//导出路由器对象</span>
+module<span class="token punctuation">.</span>exports<span class="token operator">=</span>router<span class="token punctuation">;</span>
+</code></pre></div><h2 id="课后任务"><a href="#课后任务" class="header-anchor">#</a> 课后任务</h2> <details class="custom-block details"><summary>练习</summary> <ul><li>商品模块，<a href="/other/download/Rear-end.html">商品数据表</a>，<a href="/other/download/Rear-end.html">商品接口说明文档</a><div class="language- extra-class"><pre class="language-text"><code>列表   详情(检索)   添加   修改  删除
+</code></pre></div></li></ul></details></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/frontend/Express/middleware.html" class="prev">
+        中间件
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.c919360d.js" defer></script><script src="/assets/js/2.cfe6598b.js" defer></script><script src="/assets/js/79.a8949abe.js" defer></script><script src="/assets/js/3.fb60532c.js" defer></script>
+  </body>
+</html>
