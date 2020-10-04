@@ -11,7 +11,10 @@
 
 ## JavaScript
 
-- [JavaScript](/frontend/JavaScript/)
+- [JavaScript](/frontend/javaScript/)
+
+## Node
+- [NodeJS](/frontend/NodeJS/)
 
 ## Ajax
 
@@ -22,9 +25,6 @@
 <!-- - [javaScriptTop](/frontend/javaScriptTop) -->
 
 <!-- - [domBom](/frontend/domBom) -->
-
-<!-- ## Node
-- [node](/frontend/node/) -->
 
 <!-- ## Vue
 - [vue](/frontend/vue/) -->

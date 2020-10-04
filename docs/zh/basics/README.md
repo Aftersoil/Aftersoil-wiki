@@ -7,7 +7,7 @@
 
 ## JavaScript
 
-- [JavaScript 基础](/zh/frontend/JavaScript/)
+- [JavaScript 基础](/zh/frontend/javaScript/)
 
 ## Ajax
 

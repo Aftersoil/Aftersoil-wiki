@@ -3,7 +3,7 @@
 ## 课程体系
 
 :::tip
-阶段1(服务器端): 项目导入 / [数据库](/rearend/MySQL/) / [JS 基础](/frontend/javaScript/) / NodeJS   
+阶段1(服务器端): 项目导入 / [数据库](/rearend/MySQL/) / [JS 基础](/frontend/avaScript/) / NodeJS   
 阶段2(前端核心技术): [HTML](/frontend/javaScript/) / AJAX / [CSS](/frontend/CSS/) / [BootStrap](/frontend/BootStrap/)   
 阶段3(前端进阶技术): JS高级 / DOM&BOM / [jQuery](/frontend/jQuery/) / VueJS   
 阶段4(H5移动开发): HTML5 / 微信开发 / HybridAPP    
