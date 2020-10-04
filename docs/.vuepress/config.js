@@ -13,10 +13,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'baidu-site-verification', content: 'code-6uTgqJ41VJ' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' }],
-    ['meta', { "HTTP-EQUIV": 'pragma', content: 'no-cache' }],
-    ['meta', { "HTTP-EQUIV": 'Cache-Control', content: 'no-store, must-revalidate' }],
-    ['meta', { "HTTP-EQUIV": 'expires', content: 'Wed, 26 Feb 1997 08:21:57 GMT' }],
-    ['meta', { "HTTP-EQUIV": 'expires', content: '0' }],
     [
       "script",
       {},
@@ -94,7 +90,7 @@ module.exports = {
           {
             text: "Documents", link: "/doc",
             items: [
-              // { text: "Hexo-theme-sitio", link: "/sitio/" },
+              { text: "Hexo-theme-sitio", link: "/sitio/" },
             ]
           },
           { text: "Docs", link: "/basics/"},
@@ -113,7 +109,9 @@ module.exports = {
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
           "/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
-          // "/frontend/javaScriptTop/":[""],
+          "/frontend/NodeJS/":["", "module", "http"],
+          "/frontend/Express/":["", "middleware", "xz"],
+          "/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
           // "/frontend/vue/":[""],
           // "/frontend/vuex/":[""],
           // "/frontend/nuxt/": [""],
@@ -138,7 +136,7 @@ module.exports = {
           {
             text: "文档", link: "/doc",
             items: [
-              // { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
+              { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
           { text: "笔记", link: "/zh/basics/"},
@@ -157,6 +155,9 @@ module.exports = {
           "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/zh/frontend/docsH5C3/":[""],
           "/zh/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/zh/frontend/NodeJS/": ["", "module", "http"],
+          "/zh/frontend/Express/":["", "middleware", "xz"],
+          "/zh/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
           // "/zh/frontend/javaScriptTop/":[""],
           // "/zh/frontend/vue/":[""],
           // "/zh/frontend/vuex/":[""],
