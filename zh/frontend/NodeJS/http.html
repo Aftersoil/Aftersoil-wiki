@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>http 协议 | 后土维基</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon/chrome-192x192.png">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+    <meta name="description" content="后土维基 | 后土文档 | Aftersoil | Aftersoil-wiki">
+    <meta name="theme-color" content="#663403">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="baidu-site-verification" content="code-6uTgqJ41VJ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="preload" href="/assets/css/0.styles.5dc1cf24.css" as="style"><link rel="preload" href="/assets/js/app.83c861ca.js" as="script"><link rel="preload" href="/assets/js/2.cfe6598b.js" as="script"><link rel="preload" href="/assets/js/72.9945d7cb.js" as="script"><link rel="preload" href="/assets/js/3.fb60532c.js" as="script"><link rel="prefetch" href="/assets/js/10.02805980.js"><link rel="prefetch" href="/assets/js/100.53ac03d9.js"><link rel="prefetch" href="/assets/js/101.7b198cb4.js"><link rel="prefetch" href="/assets/js/102.a5ca47b2.js"><link rel="prefetch" href="/assets/js/103.48dd77d2.js"><link rel="prefetch" href="/assets/js/104.80be4942.js"><link rel="prefetch" href="/assets/js/105.34fb1cae.js"><link rel="prefetch" href="/assets/js/106.af4b7bb7.js"><link rel="prefetch" href="/assets/js/107.1fcfc449.js"><link rel="prefetch" href="/assets/js/108.e0f79817.js"><link rel="prefetch" href="/assets/js/11.87313a1f.js"><link rel="prefetch" href="/assets/js/12.e4e13bc9.js"><link rel="prefetch" href="/assets/js/13.5eddee4b.js"><link rel="prefetch" href="/assets/js/14.708c626e.js"><link rel="prefetch" href="/assets/js/15.a7a08f66.js"><link rel="prefetch" href="/assets/js/16.ffb3f5fc.js"><link rel="prefetch" href="/assets/js/17.43aa4617.js"><link rel="prefetch" href="/assets/js/18.e5092e77.js"><link rel="prefetch" href="/assets/js/19.1f9d07e9.js"><link rel="prefetch" href="/assets/js/20.bd0d92ff.js"><link rel="prefetch" href="/assets/js/21.46d97b62.js"><link rel="prefetch" href="/assets/js/22.642684cd.js"><link rel="prefetch" href="/assets/js/23.91fa2cac.js"><link rel="prefetch" href="/assets/js/24.b60fcd09.js"><link rel="prefetch" href="/assets/js/25.4e63114b.js"><link rel="prefetch" href="/assets/js/26.14c5d1f1.js"><link rel="prefetch" href="/assets/js/27.2096a948.js"><link rel="prefetch" href="/assets/js/28.4d93a4f9.js"><link rel="prefetch" href="/assets/js/29.a8122f14.js"><link rel="prefetch" href="/assets/js/30.f2ec9c1d.js"><link rel="prefetch" href="/assets/js/31.12cac347.js"><link rel="prefetch" href="/assets/js/32.b19f74a3.js"><link rel="prefetch" href="/assets/js/33.b06bbc5a.js"><link rel="prefetch" href="/assets/js/34.30a7f517.js"><link rel="prefetch" href="/assets/js/35.b293f258.js"><link rel="prefetch" href="/assets/js/36.d7b8d37f.js"><link rel="prefetch" href="/assets/js/37.18aa256d.js"><link rel="prefetch" href="/assets/js/38.71766910.js"><link rel="prefetch" href="/assets/js/39.d008c991.js"><link rel="prefetch" href="/assets/js/4.a69ff10d.js"><link rel="prefetch" href="/assets/js/40.39f37052.js"><link rel="prefetch" href="/assets/js/41.cef48b30.js"><link rel="prefetch" href="/assets/js/42.3902f948.js"><link rel="prefetch" href="/assets/js/43.7d88acfe.js"><link rel="prefetch" href="/assets/js/44.886e6170.js"><link rel="prefetch" href="/assets/js/45.a1913abb.js"><link rel="prefetch" href="/assets/js/46.f0874fb0.js"><link rel="prefetch" href="/assets/js/47.a1de5778.js"><link rel="prefetch" href="/assets/js/48.6fa881d5.js"><link rel="prefetch" href="/assets/js/49.d98f121e.js"><link rel="prefetch" href="/assets/js/5.597b3655.js"><link rel="prefetch" href="/assets/js/50.76f7dba3.js"><link rel="prefetch" href="/assets/js/51.29076c47.js"><link rel="prefetch" href="/assets/js/52.4c1a90f5.js"><link rel="prefetch" href="/assets/js/53.4c9f19e1.js"><link rel="prefetch" href="/assets/js/54.deda128a.js"><link rel="prefetch" href="/assets/js/55.daf37023.js"><link rel="prefetch" href="/assets/js/56.8a63a354.js"><link rel="prefetch" href="/assets/js/57.26d541f2.js"><link rel="prefetch" href="/assets/js/58.0ac80114.js"><link rel="prefetch" href="/assets/js/59.4b5bc47a.js"><link rel="prefetch" href="/assets/js/6.716bb8d3.js"><link rel="prefetch" href="/assets/js/60.98ad2307.js"><link rel="prefetch" href="/assets/js/61.ce2dc6f4.js"><link rel="prefetch" href="/assets/js/62.3328b88b.js"><link rel="prefetch" href="/assets/js/63.ed2ac2d6.js"><link rel="prefetch" href="/assets/js/64.77fca508.js"><link rel="prefetch" href="/assets/js/65.5d66a0ed.js"><link rel="prefetch" href="/assets/js/66.5a98b696.js"><link rel="prefetch" href="/assets/js/67.eb91f5f8.js"><link rel="prefetch" href="/assets/js/68.b3990082.js"><link rel="prefetch" href="/assets/js/69.8586f274.js"><link rel="prefetch" href="/assets/js/7.7578dc10.js"><link rel="prefetch" href="/assets/js/70.d00bd7e0.js"><link rel="prefetch" href="/assets/js/71.486aafdd.js"><link rel="prefetch" href="/assets/js/73.329817fa.js"><link rel="prefetch" href="/assets/js/74.c2aef649.js"><link rel="prefetch" href="/assets/js/75.40d7a1b8.js"><link rel="prefetch" href="/assets/js/76.0f64d2a7.js"><link rel="prefetch" href="/assets/js/77.67d1e197.js"><link rel="prefetch" href="/assets/js/78.dccd8427.js"><link rel="prefetch" href="/assets/js/79.e47aab03.js"><link rel="prefetch" href="/assets/js/8.c7bc607c.js"><link rel="prefetch" href="/assets/js/80.986df05b.js"><link rel="prefetch" href="/assets/js/81.df087bbd.js"><link rel="prefetch" href="/assets/js/82.ef8660de.js"><link rel="prefetch" href="/assets/js/83.86df223d.js"><link rel="prefetch" href="/assets/js/84.ed1689c2.js"><link rel="prefetch" href="/assets/js/85.68a7f031.js"><link rel="prefetch" href="/assets/js/86.365e223d.js"><link rel="prefetch" href="/assets/js/87.06c20c29.js"><link rel="prefetch" href="/assets/js/88.9cd6a936.js"><link rel="prefetch" href="/assets/js/89.b6a3714a.js"><link rel="prefetch" href="/assets/js/9.4060c407.js"><link rel="prefetch" href="/assets/js/90.e7907157.js"><link rel="prefetch" href="/assets/js/91.56097cef.js"><link rel="prefetch" href="/assets/js/92.27a5b2fa.js"><link rel="prefetch" href="/assets/js/93.39d4a037.js"><link rel="prefetch" href="/assets/js/94.93c3f873.js"><link rel="prefetch" href="/assets/js/95.f17670c5.js"><link rel="prefetch" href="/assets/js/96.91545de7.js"><link rel="prefetch" href="/assets/js/97.aceb1b04.js"><link rel="prefetch" href="/assets/js/98.0a0526f7.js"><link rel="prefetch" href="/assets/js/99.04fddbdf.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.5dc1cf24.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zh/" class="home-link router-link-active"><!----> <span class="site-name">后土维基</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/sitio/" class="nav-link">
+  Hexo-theme-sitio
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/NodeJS/http.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/frontend/NodeJS/http.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zh/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/sitio/" class="nav-link">
+  Hexo-theme-sitio
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/basics/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="https://github.com/Aftersoil/Aftersoil-wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/NodeJS/http.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/frontend/NodeJS/http.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+   简体中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zh/frontend/NodeJS/" aria-current="page" class="sidebar-link">NodeJS 概述</a></li><li><a href="/zh/frontend/NodeJS/module.html" class="sidebar-link">NodeJS 模块</a></li><li><a href="/zh/frontend/NodeJS/http.html" aria-current="page" class="active sidebar-link">http 协议</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#通用头信息" class="sidebar-link">通用头信息</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#响应头信息" class="sidebar-link">响应头信息</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#请求头信息" class="sidebar-link">请求头信息</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#请求主体" class="sidebar-link">请求主体</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#http-模块" class="sidebar-link">http 模块</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#模拟浏览器" class="sidebar-link">模拟浏览器</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#创建web服务器" class="sidebar-link">创建web服务器</a></li><li class="sidebar-sub-header"><a href="/zh/frontend/NodeJS/http.html#课后任务" class="sidebar-link">课后任务</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="http-协议"><a href="#http-协议" class="header-anchor">#</a> http 协议</h1> <p>浏览器和web服务器之间的通信协议</p> <h2 id="通用头信息"><a href="#通用头信息" class="header-anchor">#</a> 通用头信息</h2> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p><code>Request URL</code>: 请求的<code>URL</code>,对应浏览器地址栏；向服务器获取哪些内容<br> <code>Request Method</code>: 请求的方法，获取内容的方法 <code>get/post</code><br> <code>Status Code</code>: <a href="/frontend/ajax/#响应起始行">响应的状态码</a><br> <code>Remote Address</code>：请求的服务器的IP地址及端口号</p></div> <ul><li>响应的状态码</li></ul> <div class="language- extra-class"><pre class="language-text"><code>1**：正在响应，还没有结束
+2**：成功的响应
+3**：响应的重定向，跳转到另一个URL
+4**：客户端请求错误
+5**：服务器端错误
+</code></pre></div><h2 id="响应头信息"><a href="#响应头信息" class="header-anchor">#</a> <a href="/frontend/ajax/#响应头">响应头信息</a></h2> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p><code>Connection</code>: 连接方式，<code>keep-alive</code> 持久连接<br> <code>Content-Encoding</code>: 内容压缩形式， <code>gzip</code><br> <code>Content-Type</code>: 响应的文件类型<br> <code>Location</code>: 跳转的URL,常配合着状态码3**使用</p></div> <h2 id="请求头信息"><a href="#请求头信息" class="header-anchor">#</a> <a href="/frontend/ajax/#请求头">请求头信息</a></h2> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p><code>Accept</code>: 浏览器接收的文件类型有哪些<br> <code>Accept-Encoding</code>: 接收的压缩形式有哪些<br> <code>User-Agent</code>: 客户端使用的浏览器版本</p></div> <h2 id="请求主体"><a href="#请求主体" class="header-anchor">#</a> <a href="/frontend/ajax/#请求主体">请求主体</a></h2> <p>可有可无，浏览器向服务器发请求传递的数据</p> <h2 id="http-模块"><a href="#http-模块" class="header-anchor">#</a> http 模块</h2> <p>模拟浏览器向web服务器发请求，还可以创建web服务器</p> <h2 id="模拟浏览器"><a href="#模拟浏览器" class="header-anchor">#</a> 模拟浏览器</h2> <div class="language-js extra-class"><pre class="language-js"><code>http<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> callback<span class="token punctuation">)</span>  <span class="token comment">// 发送请求</span>
+  url  <span class="token comment">// 请求的URL </span>
+  callback  <span class="token comment">// 回调函数，获取服务器端的响应</span>
+
+  res  <span class="token comment">// 响应的对象</span>
+  res<span class="token punctuation">.</span>statusCode  <span class="token comment">// 获取响应的状态码</span>
+  res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span><span class="token punctuation">{</span>   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token comment">// 事件: 监听服务器端是否有数据传输过来</span>
+    <span class="token comment">// chunk  就是传输的数据，格式为buffer</span>
+</code></pre></div><ul><li>实例</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 引入http模块</span>
+<span class="token keyword">const</span> http<span class="token operator">=</span><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 向web服务器发请求</span>
+<span class="token comment">// 参数1: 请求的URL</span>
+<span class="token comment">// 参数2: 获取响应</span>
+http<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://www.weather.com.cn/data/sk/101010100.html'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">// res:响应的对象</span>
+  <span class="token comment">// 响应的状态码</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> res<span class="token punctuation">.</span>statusCode <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 获取响应的内容</span>
+  <span class="token comment">// 事件：监听是否有数据流响应</span>
+  res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>chunk<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="创建web服务器"><a href="#创建web服务器" class="header-anchor">#</a> 创建web服务器</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> app <span class="token operator">=</span> http<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建web服务器</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8080</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 设置监听的端口</span>
+
+<span class="token comment">// 监听浏览器的请求</span>
+app<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'request'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span>res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  req           <span class="token comment">// 请求的对象</span>
+    req<span class="token punctuation">.</span>url     <span class="token comment">// 请求的url，获取端口号后边的部分</span>
+    req<span class="token punctuation">.</span>method  <span class="token comment">// 请求的方法</span>
+    req<span class="token punctuation">.</span>headers <span class="token comment">// 请求的头信息</span>
+  res  响应的对象
+    res<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">// 设置响应的内容</span>
+    res<span class="token punctuation">.</span><span class="token function">writeHead</span><span class="token punctuation">(</span> 状态码<span class="token punctuation">,</span> 头信息对象 <span class="token punctuation">)</span>
+    res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span>    <span class="token comment">// 结束并发送响应到浏览器</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>实例</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 引入http模块</span>
+<span class="token keyword">const</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 创建web服务器</span>
+<span class="token keyword">var</span> app <span class="token operator">=</span> http<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 设置监听的端口</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8080</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// http://127.0.0.1:8080</span>
+<span class="token comment">// http://localhost:8080</span>
+<span class="token comment">// 接收请求，根据请求作出响应</span>
+<span class="token comment">// 事件：一旦有请求，自动触发事件</span>
+<span class="token comment">// 回调函数: 服务器作出响应</span>
+app<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'request'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">// req: 请求的对象，获取所有请求</span>
+  <span class="token comment">// 请求的URL，请求的方法</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>url<span class="token punctuation">,</span> req<span class="token punctuation">.</span>method<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 请求的头信息</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>headers<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token comment">// res: 响应的对象，作出具体响应</span>
+  <span class="token comment">// 设置响应的内容</span>
+  <span class="token comment">// res.write('this is homepage');</span>
+  <span class="token comment">// 设置响应的头信息和状态码</span>
+  res<span class="token punctuation">.</span><span class="token function">writeHead</span><span class="token punctuation">(</span><span class="token number">302</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+    Location<span class="token operator">:</span><span class="token string">'https://wiki.aftersoil.xyz'</span><span class="token comment">// 跳转</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 结束并发送响应内容到浏览器</span>
+  res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="课后任务"><a href="#课后任务" class="header-anchor">#</a> 课后任务</h2> <details class="custom-block details"><summary>练习</summary> <ul><li>创建web服务器，监听端口8080，接收浏览器的请求，根据请求作出不同的响应 <code>http://127.0.0.1:8080/reg</code><div class="language- extra-class"><pre class="language-text"><code>/login     响应内容    this  is  login page
+/reg       响应内容    this  is  reg  page
+/study     跳转到      https://wili.aftersoil.xyz
+</code></pre></div></li> <li><strong>预习<code>express</code></strong></li></ul></details></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/frontend/NodeJS/module.html" class="prev">
+        NodeJS 模块
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.83c861ca.js" defer></script><script src="/assets/js/2.cfe6598b.js" defer></script><script src="/assets/js/72.9945d7cb.js" defer></script><script src="/assets/js/3.fb60532c.js" defer></script>
+  </body>
+</html>
