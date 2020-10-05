@@ -2,6 +2,7 @@
 
 ## HTML + CSS
 - [HTML](/frontend/HTML/)
+- [HTML5](/frontend/HTML5/)
 - [CSS](/frontend/css/)
 - [BootStrap](/frontend/BootStrap/)
 

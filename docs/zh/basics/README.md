@@ -2,6 +2,7 @@
 
 ## HTML + CSS
 - [HTML](/zh/frontend/docsHtml/)
+- [HTML5](/zh/frontend/HTML5/)
 - [CSS基础](/zh/frontend/css/)
 - [BootStrap](/zh/frontend/BootStrap/)
 
