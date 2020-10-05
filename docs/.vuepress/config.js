@@ -52,7 +52,8 @@ module.exports = {
     // },
     '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
-    'vuepress-plugin-smooth-scroll': true
+    'vuepress-plugin-smooth-scroll': true,
+    'vuepress-plugin-code-copy': true
   },
 
   /**

@@ -25,5 +25,8 @@
     "moment": "^2.29.0",
     "vuepress": "^1.5.4",
     "vuepress-plugin-smooth-scroll": "0.0.10"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
