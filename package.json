@@ -9,7 +9,7 @@
     "deploy": "bash .sh/deploy.sh",
     "push": "bash .sh/push.sh",
     "gh": "bash .sh/gh.sh",
-    "test": "mocha"
+    "test": "mocha -R spec"
   },
   "keywords": [],
   "author": "<aftersoil@163.com>",
