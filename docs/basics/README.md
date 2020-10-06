@@ -3,7 +3,7 @@
 ## HTML + CSS
 - [HTML](/frontend/HTML/)
 - [HTML5](/frontend/HTML5/)
-- [CSS](/frontend/css/)
+- [CSS + CSS3](/frontend/css/)
 - [BootStrap](/frontend/BootStrap/)
 
 ## JavaScript
