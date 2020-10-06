@@ -1,20 +1,26 @@
 # Web 基础知识
 
+html，专门指网页技术
+
 HTML5 大前端技术 网页  app  桌面程序  数据可视化  VR
 
 网页(pc,pad,phone) app wx  服务器 数据库 
 
-html5 html4, XHtm1.0 升级版
+HTML5  是 html4.01和XHtml1.0的升级版
 
-XHtm1.0  语法严谨
+XHML1.0的语法更严谨   `<input/> `
+
+H5支持两种写法 ` <input/>` 或  `<input>`
 
 ## web 与  internt
 
-app  pipe  <br>
-www服务  world wide web万维网 服务<br>
+Internet全球计算机互联网      
+俗称：互联网，因特网，交换网，交际网
+
+浏览网页，只是internet上所有服务器中的一项服务    
+www服务  world wide web万维网，访问的网站的服务      
 BBS  论坛<br>
 Email 邮件  telnet 远程登录  FTP 上传和下载
-
 
 ## C/S
 C: client 客户端<br>
@@ -31,8 +37,9 @@ S: server  服务器<br>
 2、b/s不需要升级
 
 ## web运行原理
+
 web：运行在internet上的B/S结构的应用程序，俗称网站internet：为web运行提供了网络环境<br>
-web的工作原理：基于浏览器和服务器以及通信协议来实现的数据的传输和展示
+internet：为web运行提供了网络环境     
 
 ## 通信协议
 规范了数据如何打包和传递

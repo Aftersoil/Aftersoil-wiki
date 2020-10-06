@@ -52,7 +52,8 @@ module.exports = {
     // },
     '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
-    'vuepress-plugin-smooth-scroll': true
+    'vuepress-plugin-smooth-scroll': true,
+    'vuepress-plugin-code-copy': true
   },
 
   /**
@@ -104,7 +105,8 @@ module.exports = {
           "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/frontend/node/": [""],
           "/frontend/HTML/":["", "HTML", "table", "form"],
-          "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/frontend/HTML5/":["", "canvas"],
+          "/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
@@ -150,7 +152,8 @@ module.exports = {
           "/zh/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/zh/frontend/node/": [""],
           "/zh/frontend/HTML/":["", "HTML", "table", "form"],
-          "/zh/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/zh/frontend/HTML5/":["",],
+          "/zh/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
           "/zh/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/zh/frontend/docsH5C3/":[""],

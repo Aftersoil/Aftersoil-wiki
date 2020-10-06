@@ -1,11 +1,5 @@
 # html快速入门
 
-## 什么是 HTML 
-```
-HTML：HyperText Markup Language  超文本标记语言
-超文本，有能力的普通文本就是超文本
-```
-
 ## 上班第一天 看文档
 
 - 接口规范文档
@@ -17,6 +11,15 @@ HTML：HyperText Markup Language  超文本标记语言
 要求 2 行代码一行注释，或 3 行代码 1 行注释<br>
 看每个公司规范
 :::
+
+## 什么是 HTML 
+```
+HTML：HyperText Markup Language  超文本标记语言
+超文本，有能力的普通文本就是超文本
+```
+
+语法，使用标记`<>`包裹 `<a href></a>`     
+每一种标签都有自己独特的功能
 
 ## 文档类型
 
@@ -42,6 +45,19 @@ keyword             <!-- 关键词内容 -->
 <div></div>         <!-- 用于页面布局 -->
 <span></span>       <!-- 同一行文字使用不同样式  使用span -->
 &nbsp; &copy; &reg; &times; X;  sup sub  <!-- 特殊字符 -->
+```
+
+## 文本样式
+
+```html
+<b></b>  <strong></strong> 加粗
+<i></i>   <em></em>        斜体
+<s></s>  <del></del>        删除线
+
+<!-- H5推荐使用有语义的标签 -->
+<u></u>      下划线
+<sup></sup>  上标
+<sub></sub>  下标
 ```
 
 ## 元素的显示方式
@@ -164,4 +180,3 @@ keyword             <!-- 关键词内容 -->
   </pre>
 </p>
 </details>
-
