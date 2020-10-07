@@ -63,6 +63,10 @@
   <div class="video">
     <video src="https://images.aftersoil.xyz/" controls preload></video>
   </div>
+
+软件下载链接代码
+  - 英文   [Download](https://images.aftersoil.xyz/compression/)
+  - 中文   [下载](https://images.aftersoil.xyz/compression/)
 -->
 
 ## 贡献题目

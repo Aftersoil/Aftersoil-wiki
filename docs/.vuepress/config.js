@@ -52,8 +52,9 @@ module.exports = {
     // },
     '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
+    '@vuepress/medium-zoom': true,
     'vuepress-plugin-smooth-scroll': true,
-    'vuepress-plugin-code-copy': true
+    'vuepress-plugin-code-copy': true,
   },
 
   /**
@@ -123,7 +124,9 @@ module.exports = {
           // =========================== 其它文档配置 ===========================
           "/other/git/": [""],
           "/other/pwa/": [""],
-          "/other/download/": ["", "Rear-end", "Other"],
+          "/other/download/": ["", "Rear-end", "Other", "statement"],
+          "/other/MarkDown/": ["", ],
+          "/other/VScode/": ["", ],
         }
       },
 
@@ -171,7 +174,9 @@ module.exports = {
           // =========================== 其它文档配置 ===========================
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],
-          "/zh/other/download/": ["", "Rear-end", "Other"],
+          "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
+          "/zh/other/MarkDown/": ["", ],
+          "/zh/other/VScode/": ["", ],
         }
       },
     },
