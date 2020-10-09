@@ -8,7 +8,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'apple-touch-icon', href: '/icon/chrome-192x192.png' }],
-    ['meta', { name: 'theme-color', content: '#663403' }],
+    ['meta', { name: 'theme-color', content: '#fb6b8f' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'baidu-site-verification', content: 'code-6uTgqJ41VJ' }],

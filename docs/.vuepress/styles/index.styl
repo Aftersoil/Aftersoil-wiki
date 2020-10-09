@@ -30,8 +30,14 @@ body {
 
 @media (max-width: 500px) {
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 3px;
     height: 3px;
+  }
+}
+
+@media (min-width: 500px) {
+  .code-copy {
+    height 0
   }
 }
 
@@ -47,10 +53,11 @@ body {
   width: 100%
 }
 
-.code-copy {
-  height 0
-}
-
 svg {
   transition: all .3s
+}
+
+pre {
+  overflow-x: auto !important
+  overflow-y hidden !important
 }
