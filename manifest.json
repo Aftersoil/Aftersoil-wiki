@@ -1,8 +1,8 @@
 {
   "name":"Aftersoil-wiki",
   "short_name":"Aftersoil-wiki",
-  "theme_color":"#663403",
-  "background_color":"#663403",
+  "theme_color":"#fb6b8f",
+  "background_color":"#fb6b8f",
   "display":"standalone",
   "start_url":"/",
   "icons":[
