@@ -7,6 +7,40 @@ We welcome all requests. Suggestions and feedback are also welcome <a href="http
 1. <a href="https://github.com/Aftersoil/" target="_blank">Aftersoil</a>
 2. <a href="https://github.com/Aftersoil/Aftersoil-wiki/issues" target="_blank">GitHub Issues</a>
 
+### Welcome to Join QQ group
+
+<style>
+  
+  #QR{
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    left: 1rem;
+  }
+  #QR>h5{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 33px;
+  }
+
+</style>
+
+
+ <div id="QR">
+  <img src="https://gitee.com/master0037/publicImg/raw/master/AftersoilQR.png" />
+  <h5>  
+    欢迎加入QQ交流群 ✨🎉
+  </h5>
+ </div>
+
+
+
+
+
+
 ## Contributors
 
 <style>
@@ -74,6 +108,7 @@ We welcome all requests. Suggestions and feedback are also welcome <a href="http
     width: 100%;
   }
 }
+
 </style>
 
 <ul id="list">
