@@ -8,7 +8,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'apple-touch-icon', href: '/icon/chrome-192x192.png' }],
-    ['meta', { name: 'theme-color', content: '#663403' }],
+    ['meta', { name: 'theme-color', content: '#fb6b8f' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'baidu-site-verification', content: 'code-6uTgqJ41VJ' }],
@@ -52,8 +52,9 @@ module.exports = {
     // },
     '@vuepress-something/vuepress-plugin-dplayer': true,
     '@vuepress/back-to-top': true,
+    '@vuepress/medium-zoom': true,
     'vuepress-plugin-smooth-scroll': true,
-    'vuepress-plugin-code-copy': true
+    'vuepress-plugin-code-copy': true,
   },
 
   /**
@@ -106,7 +107,7 @@ module.exports = {
           "/frontend/node/": [""],
           "/frontend/HTML/":["", "HTML", "table", "form"],
           "/frontend/HTML5/":["", "canvas"],
-          "/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
@@ -123,7 +124,9 @@ module.exports = {
           // =========================== 其它文档配置 ===========================
           "/other/git/": [""],
           "/other/pwa/": [""],
-          "/other/download/": ["", "Rear-end", "Other"],
+          "/other/download/": ["", "Rear-end", "Other", "statement"],
+          "/other/MarkDown/": ["", ],
+          "/other/VScode/": ["", ],
         }
       },
 
@@ -153,7 +156,7 @@ module.exports = {
           "/zh/frontend/node/": [""],
           "/zh/frontend/HTML/":["", "HTML", "table", "form"],
           "/zh/frontend/HTML5/":["",],
-          "/zh/frontend/css/": ["", "size", "box", "TextFormatting", "selector"],
+          "/zh/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
           "/zh/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/zh/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/zh/frontend/docsH5C3/":[""],
@@ -171,7 +174,9 @@ module.exports = {
           // =========================== 其它文档配置 ===========================
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],
-          "/zh/other/download/": ["", "Rear-end", "Other"],
+          "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
+          "/zh/other/MarkDown/": ["", ],
+          "/zh/other/VScode/": ["", ],
         }
       },
     },

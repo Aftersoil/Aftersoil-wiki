@@ -13,10 +13,13 @@
 | 文档名称 | 标签分类 | 更新状态 |
 | ------- | :------- | :-----: |
 | [HTML](https://wiki.aftersoil.xyz/frontend/HTML/) | HTML + CSS | 待完善 👊 |
-| [CSS基础](https://wiki.aftersoil.xyz/frontend/CSS/) | HTML + CSS | 待完善 👊 |
+| [HTML5](https://wiki.aftersoil.xyz/frontend/HTML5/) | HTML + CSS | 待完善 👊 |
+| [CSS + CSS3](https://wiki.aftersoil.xyz/frontend/CSS/) | HTML + CSS | 待添加 😄 |
 | [BootStrap 基础](https://wiki.aftersoil.xyz/frontend/BootStrap/) | HTML + CSS | 待完善 👊 |
-| [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/JavaScript/) | JavaScript | 待完善 👊 |
-| [Ajax](https://wiki.aftersoil.xyz/frontend/Ajax/) | JavaScript | 持续更新中 ✌️ ✊ |
+| [JavaScript 基础](https://wiki.aftersoil.xyz/frontend/javaScript/) | JavaScript | 待完善 👊 |
+| [NodeJS](https://wiki.aftersoil.xyz/frontend/NodeJS/) | NodeJS | 待完善 👊 |
+| [Express](https://wiki.aftersoil.xyz/frontend/Express/) | NodeJS | 待完善 👊 |
+| [Ajax](https://wiki.aftersoil.xyz/frontend/Ajax/) | Ajax | 持续更新中 ✌️ ✊ |
 | [jQuery 基础](https://wiki.aftersoil.xyz/frontend/jQuery/) | jQuery | 待完善 👊 |
 | [webpack](https://wiki.aftersoil.xyz/frontend/webpack/) | webpack | 待完善 👊 |
 
@@ -60,6 +63,10 @@
   <div class="video">
     <video src="https://images.aftersoil.xyz/" controls preload></video>
   </div>
+
+软件下载链接代码
+  - 英文   [Download](https://images.aftersoil.xyz/compression/)
+  - 中文   [下载](https://images.aftersoil.xyz/compression/)
 -->
 
 ## 贡献题目
