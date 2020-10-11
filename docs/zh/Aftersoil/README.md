@@ -92,3 +92,7 @@
     </a>
   </li>
 </ul>
+
+## 欢迎加入QQ群 ✨🎉
+
+![alt text](https://images.aftersoil.xyz/aftersoil/qq.jpg)

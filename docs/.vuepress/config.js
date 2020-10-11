@@ -125,7 +125,7 @@ module.exports = {
           "/other/git/": [""],
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other", "statement"],
-          "/other/MarkDown/": ["", ],
+          "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
           "/other/VScode/": ["", ],
         }
       },
@@ -175,7 +175,7 @@ module.exports = {
           "/zh/other/git/": [""],
           "/zh/other/pwa/": [""],
           "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
-          "/zh/other/MarkDown/": ["", ],
+          "/zh/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
           "/zh/other/VScode/": ["", ],
         }
       },
