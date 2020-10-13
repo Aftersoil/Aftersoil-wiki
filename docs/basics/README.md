@@ -19,6 +19,10 @@
 
 - [Ajax](/frontend/ajax/)
 
+## WeChat
+
+- [WeChat](/frontend/weChat/)
+
 <!-- ## JavaScriptTop -->
 
 <!-- - [javaScriptTop](/frontend/javaScriptTop) -->
