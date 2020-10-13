@@ -7,40 +7,6 @@ We welcome all requests. Suggestions and feedback are also welcome <a href="http
 1. <a href="https://github.com/Aftersoil/" target="_blank">Aftersoil</a>
 2. <a href="https://github.com/Aftersoil/Aftersoil-wiki/issues" target="_blank">GitHub Issues</a>
 
-### Welcome to Join QQ group
-
-<style>
-  
-  #QR{
-    display: block;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    position: relative;
-    left: 1rem;
-  }
-  #QR>h5{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 33px;
-  }
-
-</style>
-
-
- <div id="QR">
-  <img src="https://gitee.com/master0037/publicImg/raw/master/AftersoilQR.png" />
-  <h5>  
-    欢迎加入QQ交流群 ✨🎉
-  </h5>
- </div>
-
-
-
-
-
-
 ## Contributors
 
 <style>
@@ -122,8 +88,12 @@ We welcome all requests. Suggestions and feedback are also welcome <a href="http
   <li class="list-item">
     <a href="https://github.com/Kivenxue" title="Open in GitHub https://github.com/Kivenxue" target="_blank" class="item-h" data-url="https://github.com/Kivenxue">
       <img src="https://avatars3.githubusercontent.com/u/48984085?s=96&v=4" data-img="https://avatars3.githubusercontent.com/u/48984085?s=96&v=4">
-      <h4 title="Kivenxue">Kivenxue</h4>
+      <a href="https://kiven.aftersoil.xyz/" target="_blank" title="Enter personal website"><h4>Kivenxue</h4></a>
       <p title="web | 业余码农 | 果粉 | 路痴 | 女装">web | 业余码农 | 果粉 | 路痴 | 女装</p>
     </a>
   </li>
 </ul>
+
+## Welcome to Join QQ group ✨🎉
+
+![alt text](https://images.aftersoil.xyz/aftersoil/qq.jpg)

@@ -87,8 +87,12 @@
   <li class="list-item">
     <a href="https://github.com/Kivenxue" title="Open in GitHub https://github.com/Kivenxue" target="_blank" class="item-h" data-url="https://github.com/Kivenxue">
       <img src="https://avatars3.githubusercontent.com/u/48984085?s=96&v=4" data-img="https://avatars3.githubusercontent.com/u/48984085?s=96&v=4">
-      <h4 title="Kivenxue">Kivenxue</h4>
+      <a href="https://kiven.aftersoil.xyz/" target="_blank" title="进入个人网站"><h4>Kivenxue</h4></a>
       <p title="web | 业余码农 | 果粉 | 路痴 | 女装">web | 业余码农 | 果粉 | 路痴 | 女装</p>
     </a>
   </li>
 </ul>
+
+## 欢迎加入QQ群 ✨🎉
+
+![alt text](https://images.aftersoil.xyz/aftersoil/qq.jpg)

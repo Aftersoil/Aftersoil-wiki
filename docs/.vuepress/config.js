@@ -123,10 +123,10 @@ module.exports = {
           // =========================== 后端文档配置 ========================
           "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/other/git/": [""],
+          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other", "statement"],
-          "/other/MarkDown/": ["", ],
+          "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
           "/other/VScode/": ["", ],
         }
       },
@@ -174,10 +174,10 @@ module.exports = {
           // =========================== 后端文档配置 ========================
           "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/zh/other/git/": [""],
+          "/zh/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
           "/zh/other/pwa/": [""],
           "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
-          "/zh/other/MarkDown/": ["", ],
+          "/zh/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
           "/zh/other/VScode/": ["", ],
         }
       },
