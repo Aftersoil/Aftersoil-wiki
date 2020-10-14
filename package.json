@@ -28,6 +28,7 @@
     "vuepress-plugin-smooth-scroll": "0.0.10"
   },
   "dependencies": {
+    "i": "^0.3.6",
     "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
