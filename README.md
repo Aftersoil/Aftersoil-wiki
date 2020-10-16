@@ -8,6 +8,14 @@
 
 这里将收集前端和后端的面试题，并根据自己的理解提供解答，我们将会持续更新和维护该仓库，跟欢迎你和我们以一起来维护😄😄😄。
 
+## 表情说明
+| 表情 | 说明 |
+| :--: | :--: |
+| 待添加 | 😄 |
+| 持续更新中 | ✊ |
+| 待完善 | 👊 |
+| 已完结 | ✌️ |
+
 ## 前端文档
 
 | 文档名称 | 标签分类 | 更新状态 |
@@ -20,6 +28,7 @@
 | [NodeJS](https://wiki.aftersoil.xyz/frontend/NodeJS/) | NodeJS | 待完善 👊 |
 | [Express](https://wiki.aftersoil.xyz/frontend/Express/) | NodeJS | 待完善 👊 |
 | [Ajax](https://wiki.aftersoil.xyz/frontend/Ajax/) | Ajax | 持续更新中 ✌️ ✊ |
+| [WeChat](https://wiki.aftersoil.xyz/frontend/weChat/) | WeChat | 待完善 👊 |
 | [jQuery 基础](https://wiki.aftersoil.xyz/frontend/jQuery/) | jQuery | 待完善 👊 |
 | [webpack](https://wiki.aftersoil.xyz/frontend/webpack/) | webpack | 待完善 👊 |
 
@@ -35,6 +44,8 @@
 | ------- | --------- | :------: |
 | [Git](https://wiki.aftersoil.xyz/other/git/) | Git | 待添加 😄 |
 | [pwa](https://wiki.aftersoil.xyz/other/pwa/) | pwa | 待添加 😄 |
+| [MarkDown](https://wiki.aftersoil.xyz/other/MarkDown/) | MarkDown | 待完善 👊 |
+| [Visual Studio Code](https://wiki.aftersoil.xyz/other/VScode/) | Visual Studio Code | 待添加 😄 |
 | [Download](https://wiki.aftersoil.xyz/other/Download/) | pwa | 待添加 😄 |
 
 ## 前后端面试题
