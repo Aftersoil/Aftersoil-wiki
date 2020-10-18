@@ -44,6 +44,14 @@ module.exports = {
         }
       }
     },
+    'vuepress-plugin-comment': {
+      choosen: 'valine',
+      options: {
+        el: '#valine-vuepress-comment',
+        appId: 'qtvehzmgLmfoJlKJ566S7zFQ-gzGzoHsz',
+        appKey: 'XV1dedI3jtAx69IqDICIziMs'
+      }
+    },
     // '@vuepress/last-updated': {
     //   transformer: (timestamp, lang) => {
     //     moment.locale(lang);
