@@ -104,12 +104,23 @@ module.exports = {
             ]
           },
           { text: "Docs", link: "/basics/"},
+          {
+            text: "Learn more", link: "/learn/",
+            items: [
+              {
+                text: 'About us',
+                items: [
+                  { text: 'About us', link: '/learn/About/' },
+                ]
+              },
+            ]
+          },
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
         sidebar: {
           // =========================== 首页配置 ==========================
-          "/Aftersoil/": [""],
+          // "/Aftersoil/": [""],
           // =========================== 前端文档配置 ========================
           "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/frontend/node/": [""],
@@ -135,7 +146,9 @@ module.exports = {
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other", "statement"],
           "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
-          "/other/VScode/": ["", ],
+          "/other/VScode/": ["",],
+          // =========================== 了解更多配置 ===========================
+          "/learn/About/": ["",],
         }
       },
 
@@ -154,12 +167,23 @@ module.exports = {
             ]
           },
           { text: "笔记", link: "/zh/basics/"},
+          {
+            text: "了解更多", link: "/zh/learn/",
+            items: [
+              {
+                text: '关于我们',
+                items: [
+                  { text: '关于我们', link: '/zh/learn/About/' },
+                ]
+              },
+            ]
+          },
           { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
         ],
         // 导航
         sidebar: {
           // =========================== 首页配置 ==========================
-          "/zh/Aftersoil/": [""],
+          // "/zh/Aftersoil/": [""],
           // =========================== 前端文档配置 ========================
           "/zh/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
           "/zh/frontend/node/": [""],
@@ -186,7 +210,9 @@ module.exports = {
           "/zh/other/pwa/": [""],
           "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
           "/zh/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
-          "/zh/other/VScode/": ["", ],
+          "/zh/other/VScode/": ["",],
+          // =========================== 了解更多配置 ===========================
+          "/zh/learn/About/": ["",],
         }
       },
     },
