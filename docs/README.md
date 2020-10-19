@@ -4,7 +4,7 @@ heroImage: https://images.aftersoil.xyz/aftersoil/home/Aftersoil.svg
 heroText: Aftersoil wiki
 tagline: Welcome to aftersoil wiki
 actionText: Get Start →
-actionLink: /Aftersoil/
+actionLink: /learn/About/
 features:
 - title: Conciseness comes first
   details: The Markdown-centric project structure helps you focus on writing with minimal configuration.

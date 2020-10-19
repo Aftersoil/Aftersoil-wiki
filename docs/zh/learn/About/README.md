@@ -95,4 +95,6 @@
 
 ## 欢迎加入QQ群 ✨🎉
 
+::: details 点击查看图片
 ![alt text](https://images.aftersoil.xyz/aftersoil/qq.jpg)
+:::
