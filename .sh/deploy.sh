@@ -10,6 +10,26 @@ sleep 1s
 RemotePull() {
   sleep 1s
 
+  if [ -d $r_item_rmgit ]; then
+  read -p "$r_item_rmgit▶ 请选择是否拉取远程最新分支合并到本地，输入(yes/no)： " REPLACE
+    case $REPLACE in
+      [yY][eE][sS]|[yY])
+      # REPLACE="yes"
+      sleep 1s
+    ;;
+      [nN][oO]|[nN])
+      # REPLACE="no"
+      echo  -e "$before▶ 退出 pull，请重新选择 $rear"
+      deploy
+    ;;
+    *)
+      echo "Input error, should be [Y/n]."
+      exit 1
+    esac
+  fi
+  
+  sleep 1s
+
   echo -e "$before▶ 正在获取远分支请稍后... $rear"
   git branch -r
   echo -e "$before▶ 远程分支获取完成. $rear"
@@ -32,6 +52,26 @@ RemotePull() {
 sleep 1s
 
 Bale() {
+  sleep 1s
+
+  if [ -d $r_item_rmgit ]; then
+  read -p "$r_item_rmgit▶ 请选择是否打包项目，输入(yes/no)： " REPLACE
+    case $REPLACE in
+      [yY][eE][sS]|[yY])
+      # REPLACE="yes"
+      sleep 1s
+    ;;
+      [nN][oO]|[nN])
+      # REPLACE="no"
+      echo  -e "$before▶ 退出 pull，请重新选择 $rear"
+      deploy
+    ;;
+    *)
+      echo "Input error, should be [Y/n]."
+      exit 1
+    esac
+  fi
+  
   sleep 1s
 
   # Please wait to start packaging the project...
@@ -120,6 +160,26 @@ RemoteSubmission() {
 sleep 1s
 
 release() {
+  sleep 1s
+
+  if [ -d $r_item_rmgit ]; then
+  read -p "$r_item_rmgit▶ 请选择是否发布 gh-pages 项目，全网发布，输入(yes/no)： " REPLACE
+    case $REPLACE in
+      [yY][eE][sS]|[yY])
+      # REPLACE="yes"
+      sleep 1s
+    ;;
+      [nN][oO]|[nN])
+      # REPLACE="no"
+      echo  -e "$before▶ 退出 release，请重新选择 $rear"
+      deploy
+    ;;
+    *)
+      echo "Input error, should be [Y/n]."
+      exit 1
+    esac
+  fi
+  
   sleep 1s
 
   # 删除文件
