@@ -88,6 +88,9 @@ module.exports = {
    * 导航
    */
   themeConfig: {
+    sidebarDepth: 4,
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面！',
     locales: {
       // 英文
       "/": {
@@ -142,7 +145,7 @@ module.exports = {
           // =========================== 后端文档配置 ========================
           "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
+          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other", "statement"],
           "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
@@ -206,7 +209,7 @@ module.exports = {
           // =========================== 后端文档配置 ========================
           "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/zh/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
+          "/zh/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
           "/zh/other/pwa/": [""],
           "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
           "/zh/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
