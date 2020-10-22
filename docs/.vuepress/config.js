@@ -103,6 +103,7 @@ module.exports = {
           {
             text: "Documents", link: "/doc",
             items: [
+              { text: "Aftersoil-npm-api", link: "/npm-api/" },
               { text: "Hexo-theme-sitio", link: "/sitio/" },
             ]
           },
@@ -142,6 +143,9 @@ module.exports = {
           // "/frontend/nuxt/": [""],
           "/frontend/webpack/": ["", "install"],
           "/frontend/weChat/":[""],
+          // =========================== 项目文档配置 ========================
+          "/sitio/":[""],
+          "/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
@@ -206,6 +210,9 @@ module.exports = {
           // "/zh/frontend/vuex/":[""],
           // "/zh/frontend/nuxt/": [""],
           "/zh/frontend/webpack/": ["", "install"],
+          // =========================== 项目文档配置 ========================
+          "/zh/sitio/":[""],
+          "/zh/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================

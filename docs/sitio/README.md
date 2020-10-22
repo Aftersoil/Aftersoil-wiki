@@ -1,1 +1,1 @@
-## Hexo-theme-sitio
+# Hexo-theme-sitio
