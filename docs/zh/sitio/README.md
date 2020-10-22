@@ -1,1 +1,2 @@
-## Hexo-theme-Sitio 主题
+# Hexo-theme-Sitio 主题
+

@@ -4,7 +4,7 @@ heroImage: https://images.aftersoil.xyz/aftersoil/home/Aftersoil.svg
 heroText: 后土维基
 tagline: 欢迎来到后土维基
 actionText: 快速上手 →
-actionLink: /zh/Aftersoil/
+actionLink: /zh/learn/About/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
