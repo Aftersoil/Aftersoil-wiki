@@ -4,7 +4,7 @@
 # Top-most EditorConfig file
 root = true
 
-# All files 
+# All files
 [*]
 charset = utf-8
 end_of_line = lf
