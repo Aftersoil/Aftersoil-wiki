@@ -21,7 +21,7 @@ module.exports = {
         (function() {
           var hm = document.createElement("script");
           hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
       `
@@ -51,6 +51,9 @@ module.exports = {
         appId: 'qtvehzmgLmfoJlKJ566S7zFQ-gzGzoHsz',
         appKey: 'XV1dedI3jtAx69IqDICIziMs'
       }
+    },
+    '@vuepress/search': {
+      searchMaxSuggestions: 10
     },
     // '@vuepress/last-updated': {
     //   transformer: (timestamp, lang) => {
@@ -170,6 +173,7 @@ module.exports = {
           {
             text: "文档", link: "/doc",
             items: [
+              { text: "Aftersoil-npm-api", link: "/zh/npm-api/" },
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
