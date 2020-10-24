@@ -147,7 +147,16 @@ module.exports = {
           "/frontend/webpack/": ["", "install"],
           "/frontend/weChat/":[""],
           // =========================== 项目文档配置 ========================
-          "/sitio/":[""],
+          "/sitio/": [
+            "",
+            "guide",
+            {
+              title: '开发指南',
+              collapsable: true,
+              sidebarDepth: 3,
+              children: ["Development"]
+            }
+          ],
           "/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
@@ -215,7 +224,16 @@ module.exports = {
           // "/zh/frontend/nuxt/": [""],
           "/zh/frontend/webpack/": ["", "install"],
           // =========================== 项目文档配置 ========================
-          "/zh/sitio/":[""],
+          "/zh/sitio/": [
+            "",
+            "guide",
+            {
+              title: '开发指南',
+              collapsable: true,
+              sidebarDepth: 3,
+              children: ["Development"]
+            }
+          ],
           "/zh/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
