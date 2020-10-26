@@ -154,7 +154,7 @@ module.exports = {
               title: '开发指南',
               collapsable: true,
               sidebarDepth: 3,
-              children: ["Development"]
+              children: ["Development",]
             }
           ],
           "/npm-api/":[""],
