@@ -21,7 +21,7 @@ module.exports = {
         (function() {
           var hm = document.createElement("script");
           hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
       `
@@ -134,7 +134,8 @@ module.exports = {
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
-          "/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/frontend/javaScript/": ["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/frontend/typeScript/":[""],
           "/frontend/NodeJS/":["", "module", "http"],
           "/frontend/Express/":["", "middleware", "xz"],
           "/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
