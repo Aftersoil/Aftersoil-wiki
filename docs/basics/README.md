@@ -10,6 +10,10 @@
 
 - [JavaScript](/frontend/javaScript/)
 
+## TypeScript
+
+- [TypeScript](/frontend/typeScript/)
+
 ## Node
 
 - [NodeJS](/frontend/NodeJS/)
@@ -41,7 +45,7 @@
 <!-- ## Vuepress -->
 
 
-## jQuery 
+## jQuery
 
 - [jQuery](/frontend/jQuery/)
 
@@ -50,4 +54,5 @@
 ## webpack
 
 - [webpack](/frontend/webpack/)
+
 
