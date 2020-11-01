@@ -21,7 +21,7 @@ module.exports = {
         (function() {
           var hm = document.createElement("script");
           hm.src = "https://hm.baidu.com/hm.js?69622073a8649e8a707a918060cc1abc";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
       `
@@ -51,6 +51,9 @@ module.exports = {
         appId: 'qtvehzmgLmfoJlKJ566S7zFQ-gzGzoHsz',
         appKey: 'XV1dedI3jtAx69IqDICIziMs'
       }
+    },
+    '@vuepress/search': {
+      searchMaxSuggestions: 10
     },
     // '@vuepress/last-updated': {
     //   transformer: (timestamp, lang) => {
@@ -88,6 +91,9 @@ module.exports = {
    * 导航
    */
   themeConfig: {
+    sidebarDepth: 4,
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面！',
     locales: {
       // 英文
       "/": {
@@ -100,6 +106,7 @@ module.exports = {
           {
             text: "Documents", link: "/doc",
             items: [
+              { text: "Aftersoil-npm-api", link: "/npm-api/" },
               { text: "Hexo-theme-sitio", link: "/sitio/" },
             ]
           },
@@ -130,7 +137,8 @@ module.exports = {
           "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
           "/frontend/jQuery/": ["", "method", "event", "customize"],
           // "/frontend/docsH5C3/":[""],
-          "/frontend/javaScript/":["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/frontend/javaScript/": ["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/frontend/typeScript/":[""],
           "/frontend/NodeJS/":["", "module", "http"],
           "/frontend/Express/":["", "middleware", "xz"],
           "/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
@@ -139,10 +147,22 @@ module.exports = {
           // "/frontend/nuxt/": [""],
           "/frontend/webpack/": ["", "install"],
           "/frontend/weChat/":[""],
+          // =========================== 项目文档配置 ========================
+          "/sitio/": [
+            "",
+            "guide",
+            {
+              title: '开发指南',
+              collapsable: true,
+              sidebarDepth: 3,
+              children: ["Development",]
+            }
+          ],
+          "/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
+          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
           "/other/pwa/": [""],
           "/other/download/": ["", "Rear-end", "Other", "statement"],
           "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
@@ -163,6 +183,7 @@ module.exports = {
           {
             text: "文档", link: "/doc",
             items: [
+              { text: "Aftersoil-npm-api", link: "/zh/npm-api/" },
               { text: "Hexo-theme-sitio", link: "/zh/sitio/" }
             ]
           },
@@ -203,10 +224,22 @@ module.exports = {
           // "/zh/frontend/vuex/":[""],
           // "/zh/frontend/nuxt/": [""],
           "/zh/frontend/webpack/": ["", "install"],
+          // =========================== 项目文档配置 ========================
+          "/zh/sitio/": [
+            "",
+            "guide",
+            {
+              title: '开发指南',
+              collapsable: true,
+              sidebarDepth: 3,
+              children: ["Development"]
+            }
+          ],
+          "/zh/npm-api/":[""],
           // =========================== 后端文档配置 ========================
           "/zh/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
           // =========================== 其它文档配置 ===========================
-          "/zh/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias"],
+          "/zh/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
           "/zh/other/pwa/": [""],
           "/zh/other/download/": ["", "Rear-end", "Other", "statement"],
           "/zh/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
