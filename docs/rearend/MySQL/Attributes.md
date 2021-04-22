@@ -38,7 +38,7 @@ MySQL不支持检查约束，会降低数据的插入速度
 FOREIGN KEY(列) REFERENCES 数据表(主键列)
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MySQL/primary-key.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MySQL/primary-key.png)
 
 ## 自增列
 

@@ -22,4 +22,4 @@ $(document).ready(function () {
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-code-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-code-1.png)

@@ -19,7 +19,7 @@ URL完整的结构
 
 不区分大小写。常见的协议 `http`、`https`、`ftp`、`file`
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/scheme.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/scheme.png)
 
 ## `<user>:<pwd>`
 
@@ -65,15 +65,15 @@ URL完整的结构
 - `HTTP`协议的历史，我们目前使用的版本 `http/1.1`   
 :::
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/HTTP.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/HTTP.png)
 
 ## web 请求原理
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/web.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/web.png)
 
 ## 消息/报文 `Message`
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/message.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/message.png)
 
 :::tip
 请求消息`Request Message`(请求起始行，请求头，请求主体)     
@@ -183,11 +183,11 @@ image/gif
 
 总结
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/contemt.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/contemt.png)
 
 ## 缓存
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/cache.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/cache.png)
 
 客户端将服务器响应回来的数据    
 进行自动的保存    
@@ -204,7 +204,7 @@ image/gif
 
 ## 缓存原理，新鲜度和过期
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/cache-principle.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/cache-principle.png)
 
 :::tip
 - 请求--无缓存--连接服务器--存缓存--客户端渲染
@@ -281,5 +281,5 @@ var obj = document.getElementById("元素id")；
 ## URL 视频
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/ajax/url.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/ajax/url.mp4" controls preload></video>
 </div>

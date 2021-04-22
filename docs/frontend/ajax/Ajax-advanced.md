@@ -52,7 +52,7 @@ function	login(){
   - `xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");`
 :::
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/post.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/post.png)
 
 ## `json`解析
 
@@ -114,21 +114,21 @@ eXtensible markup language
 - 每个`xml`文档，有且只有一对根标记
 :::
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/xml.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/xml.png)
 
 ## 错误总结
 
 - 数据库没有开启
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/database.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/database.png)
 
 - 缺少括号
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/kuohao.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/kuohao.png)
 
 出乎意料的结尾，login这个方法未定义   
 说明login方法中缺少}
 
 - 符号错误
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/list.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/list.png)

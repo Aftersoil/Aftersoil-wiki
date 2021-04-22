@@ -17,7 +17,7 @@ css:`cascading style sheets`
 - `html`的属性，代码不能重用，没有可维护性
 :::
 
-![alt text](https://images.aftersoil.xyz/wiki/image/css/cascading-style-sheets.png)
+![alt text](https://images.chibamai.xyz/wiki/image/css/cascading-style-sheets.png)
 
 ## CSS 的语法规范
 

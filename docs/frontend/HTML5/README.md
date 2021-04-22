@@ -123,7 +123,7 @@ conver:   // 覆盖    保持原有视频比例,宽度或高度至少有一个
 
 ## html5新特性-绘图-`canvas`-(坐标系,单词多)
 
-![alt text](https://images.aftersoil.xyz/wiki/image/HTML5/canvas.png)
+![alt text](https://images.chibamai.xyz/wiki/image/HTML5/canvas.png)
 
 注意事项:完成 `html5`技术路径不要用`jquery.js`
 

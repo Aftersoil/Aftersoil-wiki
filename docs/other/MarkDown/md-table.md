@@ -11,7 +11,7 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 | 单元格  | 单元格 |
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-table-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-table-1.png)
 
 ## 对齐方式
 
@@ -27,4 +27,4 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 | 单元格 | 单元格 | 单元格 |
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-table-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-table-2.png)

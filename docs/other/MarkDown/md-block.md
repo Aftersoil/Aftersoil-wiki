@@ -10,7 +10,7 @@ Markdown 区块引用是在段落开头使用 `>` 符号 ，然后后面紧跟�
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-block-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-block-1.png)
 
 另外区块是可以嵌套的，一个 `>` 符号是最外层，两个 `>` 符号是第一层嵌套，以此类推：
 
@@ -22,7 +22,7 @@ Markdown 区块引用是在段落开头使用 `>` 符号 ，然后后面紧跟�
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-block-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-block-2.png)
 
 ## 区块中使用列表
 
@@ -37,7 +37,7 @@ Markdown 区块引用是在段落开头使用 `>` 符号 ，然后后面紧跟�
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-block-3.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-block-3.png)
 
 ## 列表中使用区块
 
@@ -50,4 +50,4 @@ Markdown 区块引用是在段落开头使用 `>` 符号 ，然后后面紧跟�
 * 第二项
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-block-4.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-block-4.png)

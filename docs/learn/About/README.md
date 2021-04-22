@@ -97,5 +97,5 @@ We welcome all requests. Suggestions and feedback are also welcome <a href="http
 ## Welcome to Join QQ group ✨🎉
 
 ::: details 点击查看图片
-![alt text](https://images.aftersoil.xyz/aftersoil/qq.jpg)
+![alt text](https://images.chibamai.xyz/aftersoil/qq.jpg)
 :::

@@ -2,11 +2,11 @@
 
 - Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-1.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-1.png)
 
 - 当然也可以在段落后面使用一个空行来表示重新开始一个段落。
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-2.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-2.png)
 
 ## 字体
 
@@ -25,7 +25,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-3.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-3.png)
 
 ## 分隔线
 
@@ -45,7 +45,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-4.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-4.png)
 
 ## 删除线
 
@@ -59,7 +59,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-5.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-5.png)
 
 ## 下划线
 
@@ -67,7 +67,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-6.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-6.png)
 
 ## 脚注
 
@@ -89,4 +89,4 @@ Markdown 脚注的格式如下:
 
 演示效果如下：
 
-![alt txt](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-paragraph-7.png)
+![alt txt](https://images.chibamai.xyz/wiki/image/MarkDowm/md-paragraph-7.png)

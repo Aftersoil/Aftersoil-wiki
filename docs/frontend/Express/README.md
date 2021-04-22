@@ -140,10 +140,10 @@ app.use('/user', userRouter);
 
 ## 浏览器向服务器请求过程
 
-![alt text](https://images.aftersoil.xyz/wiki/image/NodeJS/Browser-request.png)
+![alt text](https://images.chibamai.xyz/wiki/image/NodeJS/Browser-request.png)
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/NodeJS/post.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/NodeJS/post.mp4" controls preload></video>
 </div>
 
 ## 课后任务

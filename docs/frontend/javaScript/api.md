@@ -195,7 +195,6 @@ console.log( str.replace(/xiaoran/gi,'***') );
 i->ignore  
 // 全局查找
 g->global  
-
 ```
 
 ## Math对象

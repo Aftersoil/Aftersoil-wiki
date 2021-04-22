@@ -16,7 +16,7 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-title-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-title-1.png)
 
 ## 使用 # 号标记
 
@@ -33,4 +33,4 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-title-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-title-2.png)

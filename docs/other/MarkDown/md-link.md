@@ -12,7 +12,7 @@
 
 例如:
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-link-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-link-1.png)
 
 ## 直接使用链接地址
 
@@ -20,7 +20,7 @@
 <https://www.runoob.com>
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-link-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-link-2.png)
 
 ## 高级链接
 
@@ -37,4 +37,4 @@
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-link-3.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-link-3.png)

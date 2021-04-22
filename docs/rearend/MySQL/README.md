@@ -67,7 +67,7 @@ Alt+F4：  关闭当前的窗口
 提供该服务使用的协议  
 :::
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MySQL/server.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MySQL/server.png)
 
 ## 访问自己电脑上的web服务器
 

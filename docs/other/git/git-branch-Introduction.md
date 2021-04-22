@@ -19,11 +19,11 @@ git commit -m 'The initial commit of my project'
 
 下图是 **首次提交对象及其树结构**
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-6.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-6.png)
 
 做些修改后再次提交，那么 **这次产生的提交对象** 会包含一个 **指向上次提交对象（父对象）的指针**。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-7.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-7.png)
 
 Git 的分支，其实本质上 **仅仅是指向提交对象的可变指针**。 Git 的默认分支名字是 master。 在多次提交操作之后，你其实已经有一个指向最后那个提交对象的 master 分支。 它会在每次的提交操作中自动向前移动。
 
@@ -33,7 +33,7 @@ Git 的 「master」 分支并不是一个特殊分支。 它就跟其它分支�
 
 下图是 分支及其提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-8.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-8.png)
 
 ## 分支创建（branch）
 
@@ -45,13 +45,13 @@ git branch testing
 
 这会在当前所在的提交对象上创建一个指针。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-9.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-9.png)
 
 上图为 **两个指向相同提交历史的分支**
 
 那么，Git 又是怎么知道 **当前在哪一个分支上呢？** 也很简单，它有一个名为 **HEAD 的特殊指针**。 请注意它和许多其它版本控制系统（如 Subversion 或 CVS）里的 HEAD 概念完全不同。 在 Git 中，它是一个指针，指向当前所在的本地分支（译注：**将 HEAD 想象为当前分支的别名**）。 在本例中，你仍然在 master 分支上。 因为 `git branch` 命令仅仅 创建 一个新分支，并不会自动切换到新分支中去。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-10.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-10.png)
 
 上图为：**HEAD 指向当前所在的分支**
 
@@ -76,7 +76,7 @@ git checkout testing
 
 这样 HEAD 就指向 testing 分支了。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-11.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-11.png)
 
 ## HEAD 分支随着提交操作自动向前移动
 
@@ -88,7 +88,7 @@ vim test.rb
 git commit -a -m 'made a change'
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-12.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-12.png)
 
 如图所示，你的 testing 分支向前移动了，但是 master 分支却没有，它仍然指向运行 git checkout 时所指的对象。 这就有意思了。
 
@@ -107,7 +107,7 @@ git log --oneline --decorate
 git checkout master
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-13.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-13.png)
 
 这条命令做了两件事。 一是 使 **HEAD 指回 master 分支，二是 将工作目录恢复成 master 分支所指向的快照内容**。 也就是说，你现在做修改的话，项目将始于一个较旧的版本。 本质上来讲，这就是忽略 testing 分支所做的修改，以便于向另一个方向进行开发。
 
@@ -127,7 +127,7 @@ git commit -a -m 'made other changes'
 
 现在，这个项目的 **提交历史已经产生了分叉。** 因为刚才你创建了一个新分支，并切换过去进行了一些工作，随后又切换回 master 分支进行了另外一些工作。 **上述两次改动针对的是不同分支**：你可以在不同分支间不断地来回切换和工作，并在时机成熟时将它们合并起来。 而所有这些工作，你需要的命令只有 `branch`、`checkout` 和 `commit`。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-14.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-14.png)
 
 你可以简单地使用 `git log` 命令查看分叉历史。 运行 `git log –oneline –decorate –graph –all` ，它会输出你的提交历史、各个分支的指向以及项目的分支分叉情况。
 

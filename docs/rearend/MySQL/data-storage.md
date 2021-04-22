@@ -19,7 +19,7 @@ Server -> Database -> Table -> Row -> Column
 服务器 -> 数据库 -> 数据表 -> 行 -> 列
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MySQL/mysql-structure.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MySQL/mysql-structure.png)
 
 ## MySQL 数据库
 

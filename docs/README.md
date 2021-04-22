@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://images.aftersoil.xyz/aftersoil/home/Aftersoil.svg
+heroImage: https://images.chibamai.xyz/aftersoil/home/Aftersoil.svg
 heroText: Aftersoil wiki
 tagline: Welcome to aftersoil wiki
 actionText: Get Start →

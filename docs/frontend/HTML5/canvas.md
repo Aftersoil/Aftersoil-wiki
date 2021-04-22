@@ -126,35 +126,35 @@ w,h  图片宽度和高度(拉伸)
 ## 视频1 
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/1.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/1.mp4" controls preload></video>
 </div>
 
 ## 视频2
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/2.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/2.mp4" controls preload></video>
 </div>
 
 ## 视频3 
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/3.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/3.mp4" controls preload></video>
 </div>
 
 ## 视频4 
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/4.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/4.mp4" controls preload></video>
 </div>
 
 ## 视频5 
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/5.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/5.mp4" controls preload></video>
 </div>
 
 ## 视频6 
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/HTML5/6.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/HTML5/6.mp4" controls preload></video>
 </div>

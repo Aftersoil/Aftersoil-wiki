@@ -17,7 +17,7 @@
 
 首先，我们假设你正在你的项目上工作，并且已经有一些提交。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-15.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-15.png)
 
 如上图，简单的提交历史
 
@@ -35,7 +35,7 @@ git branch iss53
 git checkout iss53
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-16.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-16.png)
 
 你继续在 `#53` 问题上工作，并且做了一些提交。 在此过程中，`iss53` 分支在不断的向前推进，因为你已经检出到该分支（也就是说，你的 HEAD 指针指向了 `iss53` 分支）
 
@@ -44,7 +44,7 @@ vim index.html
 git commit -a -m 'added a new footer [issue 53]'
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-17.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-17.png)
 
 如上图所示：`iss53` 分支随着工作的进展向前推进
 
@@ -70,7 +70,7 @@ git commit -a -m 'fixed the broken email address'
 #  1 file changed, 2 insertions(+)
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-18.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-18.png)
 
 你可以运行你的测试，确保你的修改是正确的，然后 **将其合并回你的 master 分支来部署到线上**。 你可以使用 `git merge` 命令来达到上述目的：
 
@@ -91,7 +91,7 @@ git merge hotfix
 
 现在，最新的修改已经在 master 分支所指向的提交快照中，你可以着手发布该修复了。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-19.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-19.png)
 
 关于这个紧急问题的解决方案发布之后，你 **准备回到被打断之前时的工作中。** 然而，你应该 **先删除 hotfix 分支，因为你已经不再需要它了 —— master 分支已经指向了同一个位置。** 你可以使用带 `-d` 选项的 `git branch` 命令来删除分支：
 
@@ -111,7 +111,7 @@ git commit -a -m 'finished the new footer [issue 53]'
 # 1 file changed, 1 insertion(+)
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-20.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-20.png)
 
 你在 hotfix 分支上所做的工作并没有包含到 `iss53` 分支中。 如果你需要拉取 hotfix 所做的修改，你可以使用 `git merge master` 命令 **将 master 分支合并入 `iss53` 分支**，或者你也可以等到 `iss53` 分支完成其使命，再将其合并回 master 分支。
 
@@ -130,11 +130,11 @@ git merge iss53
 
 这和你之前合并 hotfix 分支的时候看起来有一点不一样。 在这种情况下，你的 **开发历史从一个更早的地方开始分叉开来（diverged）**。 因为，master 分支所在提交并不是 `iss53` 分支所在提交的直接祖先，Git 不得不做一些额外的工作。 出现这种情况的时候，Git 会使用两个分支的末端所指的快照（`C4` 和 `C5`）以及这两个分支的工作祖先（`C2`），做一个 **简单的三方合并。**
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-21.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-21.png)
 
 和之前将分支指针向前推进所不同的是，**Git 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提交指向它。 这个被称作 一次合并提交**，它的特别之处在于他有不止一个父提交。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-22.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-22.png)
 
 需要指出的是，**Git 会自行决定选取哪一个提交作为最优的共同祖先**，并以此作为合并的基础；这和更加古老的 CVS 系统或者 Subversion （1.5 版本之前）不同，在这些古老的版本管理系统中，用户需要自己选择最佳的合并基础。 Git 的这个优势使其在合并操作上比其他系统要简单很多。
 

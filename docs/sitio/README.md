@@ -60,7 +60,7 @@
 QQ群： 扫描二维码进交流群
 
 ::: details 点击查看QQ群聊图片
-![alt text](https://images.aftersoil.xyz/sitio/qq-group-sitio.png)
+![alt text](https://images.chibamai.xyz/sitio/qq-group-sitio.png)
 :::
 
 ## 支持

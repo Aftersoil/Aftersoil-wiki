@@ -21,7 +21,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-list-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-list-1.png)
 
 有序列表使用数字并加上 . 号来表示，如：
 
@@ -33,7 +33,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-list-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-list-2.png)
 
 ## 列表嵌套
 
@@ -50,4 +50,4 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/MarkDowm/md-list-3.png)
+![alt text](https://images.chibamai.xyz/wiki/image/MarkDowm/md-list-3.png)

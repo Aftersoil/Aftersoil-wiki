@@ -22,7 +22,7 @@
 
 客户端并不只提取最新版本的文件快照，而是把代码仓库完整地镜像下来。 这么一来，任何一处协同工作用的服务器发生故障，事后都可以用任何一个镜像出来的本地仓库恢复。 因为每一次的克隆操作，实际上都是一次对代码仓库的完整备份。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-1.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-1.png)
 
 Git 是 分布式版本控制系统
 
@@ -34,11 +34,11 @@ Git 是 分布式版本控制系统
 
 其他的版本控制系统使用记录差异比较（基础文件 + 补丁方式），如下图所示
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-2.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-2.png)
 
 反之，Git 更像是把数据看作是对小型文件系统的一组快照。 每次你提交更新，或在 Git 中保存项目状态时，它主要对当时的全部文件制作一个快照并保存这个快照的索引。 为了高效，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。 Git 对待数据更像是一个 快照流。
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-3.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-3.png)
 
 ## 近乎所有操作都是本地执行
 

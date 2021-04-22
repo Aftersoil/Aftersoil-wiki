@@ -161,7 +161,7 @@ function show(){
 
 - 跨域错误
 
-![alt text](https://images.aftersoil.xyz/wiki/image/ajax/access.png)
+![alt text](https://images.chibamai.xyz/wiki/image/ajax/access.png)
 
 会出现跨域错误。要使用服务器开启页面的方式打开
 
@@ -175,6 +175,6 @@ function show(){
 
 ::: details 练习
 - 使用dom动态完成下面表格，数据。   
-  ![alt text](https://images.aftersoil.xyz/wiki/image/ajax/exercise.png)
+  ![alt text](https://images.chibamai.xyz/wiki/image/ajax/exercise.png)
 :::
 

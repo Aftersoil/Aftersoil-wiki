@@ -14,7 +14,7 @@
 
 **编辑** 过某些文件之后，由于自上次提交后你对它们做了修改，Git 将它们标记为 **已修改文件**。 我们逐步将这些修改过的文件 **放入暂存区**，然后提交所有暂存了的修改，如此反复。所以使用 Git 时文件的生命周期如下：
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-5.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-5.png)
 
 ## 检查当前文件状态
 

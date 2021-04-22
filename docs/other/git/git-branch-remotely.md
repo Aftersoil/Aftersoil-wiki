@@ -15,31 +15,31 @@
 
 克隆之后的服务器与本地仓库
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-26.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-26.png)
 
 如果你在 **本地的 master 分支做了一些工作**，然而在同一时间，其他人推送提交到 `git.ourcompany.com` 并更新了它的 master 分支，那么你的提交历史将向不同的方向前进。 也许，只要你不与 `origin` 服务器连接，你的 `origin/master` 指针就不会移动。
 
 本地与远程的工作可以分叉
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-27.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-27.png)
 
 如果要同步你的工作，运行 `git fetch origin` 命令。 这个命令查找 `origin` 是哪一个服务器（在本例中，它是 `git.ourcompany.com`），从中抓取本地没有的数据，并且更新本地数据库，移动 `origin/master` 指针指向新的、更新后的位置。
 
 `git fetch` 更新你的远程仓库引用
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-28.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-28.png)
 
 为了演示有多个远程仓库与远程分支的情况，我们假定你有另一个内部 Git 服务器，仅用于你的 sprint 小组的开发工作。 这个服务器位于 `git.team1.ourcompany.com`。 你可以运行 `git remote add` 命令 **添加一个新的远程仓库引用到当前的项目**，这个命令我们会在 Git 基础 中详细说明。 将这个远程仓库命名为 `teamone`，将其作为整个 `URL` 的缩写。
 
 添加另一个远程仓库
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-29.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-29.png)
 
 现在，可以运行 `git fetch teamone` 来 抓取远程仓库 `teamone` 有而本地没有的数据。 因为那台服务器上现有的数据是 origin 服务器上的一个子集（简单说，这个仓库是 origin 中某一个提交中的代码），所以 Git 并不会抓取数据而是会设置远程跟踪分支 `teamone/master` 指向 `teamone` 的 master 分支。
 
 远程跟踪分支 `teamone/master`
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-30.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-30.png)
 
 ## 推送（push）
 

@@ -27,7 +27,7 @@
 
 当您进入 Issue 时会看到如下图：
 
-![alt text](https://images.aftersoil.xyz/sitio/home/issue.png)
+![alt text](https://images.chibamai.xyz/sitio/home/issue.png)
 
 在提交 Issue 时会有**四种模板**供您使用，进入页面后会有中文提示写入您的问题或某块功能需要增强。
 

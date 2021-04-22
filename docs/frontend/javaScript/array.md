@@ -166,19 +166,19 @@ splice(start, count, value1,value2..)
 ### 视频 1
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/js-array/1.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/js-array/1.mp4" controls preload></video>
 </div>
 
 ### 视频 2
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/js-array/2.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/js-array/2.mp4" controls preload></video>
 </div>
 
 ### 视频 3
 
 <div class="video">
-  <video src="https://images.aftersoil.xyz/wiki/video/js-array/3.mp4" controls preload></video>
+  <video src="https://images.chibamai.xyz/wiki/video/js-array/3.mp4" controls preload></video>
 </div>
 
 ## 课后任务

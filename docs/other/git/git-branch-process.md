@@ -13,7 +13,7 @@
 
 渐进稳定分支的线性图
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-23.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-23.png)
 
 通常把他们想象成 **流水线(work silos)** 可能更好理解一点，那些经过测试考验的提交会被遴选到更加稳定的流水线上去。
 
@@ -29,13 +29,13 @@
 
 拥有多个特性分支的提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-24.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-24.png)
 
 现在，我们假设两件事情：你 **决定使用第二个方案来解决那个问题**，即使用在 `iss91v2` 分支中方案；另外，你将 dumbidea 分支拿给你的同事看过之后，结果发现这是个惊人之举。 这时 **你可以抛弃 iss91 分支**（即丢弃 C5 和 C6 提交），然后把另外两个分支合并入主干分支。 最终你的提交历史看起来像下面这个样子：
 
 合并了 `dumbidea` 和 `iss91v2` 分支之后的提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-25.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-25.png)
 
 我们将会在 [分布式 Git](https://git-scm.com/book/zh/v2/%E5%88%86%E5%B8%83%E5%BC%8F-Git-%E5%88%86%E5%B8%83%E5%BC%8F%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B) 中向你揭示更多有关分支工作流的细节，因此，请确保你阅读完那个章节之后，再来决定你的下个项目要使用什么样的分支策略（branching scheme）。
 

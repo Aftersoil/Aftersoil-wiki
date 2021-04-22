@@ -1,3 +1,0 @@
-# Aftersoil NPM API
-
-

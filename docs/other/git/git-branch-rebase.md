@@ -8,13 +8,13 @@
 
 分叉的提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-31.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-31.png)
 
 之前介绍过，整合分支最容易的方法是 `merge` 命令。 它会把两个分支的 **最新快照（C3 和 C4）以及二者最近的共同祖先（C2）进行三方合并**，合并的结果是生成一个新的快照（并提交）。
 
 通过合并操作来整合分叉了的历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-32.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-32.png)
 
 其实，还有一种方法：你可以 **提取在 C4 中引入的补丁和修改，然后在 C3 的基础上应用一次**。 在 Git 中，这种操作就叫做 变基。 你可以使用 rebase 命令 **将提交到某一分支上的所有修改都移至另一分支上**，就好像 「重新播放」一样。
 
@@ -36,7 +36,7 @@ git rebase master
 
 将 `C4` 中的修改变基到 `C3` 上
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-33.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-33.png)
 
 现在回到 `master` 分支，进行一次快进合并。
 
@@ -59,7 +59,7 @@ master 分支的快进合并
 
 从一个特性分支里再分出一个特性分支的提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-34.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-34.png)
 
 **假设你希望将 client 中的修改合并到主分支并发布，但暂时并不想合并 server 中的修改，因为它们还需要经过更全面的测试。** 这时，你就可以使用 `git rebase` 命令的 `–onto` 选项，选中在 `client` 分支里 但不在 `server` 分支里的修改（即 `C8` 和 `C9`），将它们在 `master` 分支上重放：
 
@@ -71,7 +71,7 @@ git rebase --onto master server client
 
 截取特性分支上的另一个特性分支，然后变基到其他分支
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-35.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-35.png)
 
 现在可以快进合并 master 分支了。
 
@@ -82,7 +82,7 @@ git merge client
 
 快进合并 `master` 分支，使之包含来自 `client` 分支的修改
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-36.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-36.png)
 
 接下来你决定将 `server` 分支中的修改也整合进来。 使用 `git rebase [basebranch] [topicbranch]` 命令可以直接将特性分支（即本例中的 `server`）变基到目标分支（即 master）上。这样做能省去你先切换到 `server` 分支，再对其执行变基命令的多个步骤。
 
@@ -90,7 +90,7 @@ git merge client
 git rebase master server
 ```
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-37.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-37.png)
 
 如图所示，`server` 中的代码被「续」到了 `master` 上
 
@@ -110,7 +110,7 @@ git branch -d server
 
 最终的提交历史
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-38.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-38.png)
 
 ## 变基的风险
 
@@ -124,25 +124,25 @@ git branch -d server
 
 克隆一个仓库，然后在它的基础上进行了一些开发
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-39.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-39.png)
 
 然后，**某人又向中央服务器提交了一些修改，其中还包括一次合并**。 你抓取了这些在远程分支上的修改，并将其合并到你本地的开发分支，然后你的提交历史就会变成这样：
 
 抓取别人的提交，合并到自己的开发分支
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-40.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-40.png)
 
 接下来，这个人又 **决定把合并操作回滚，改用变基**；继而又用 · 命令覆盖了服务器上的提交历史。 之后你从服务器抓取更新，会发现多出来一些新的提交。
 
 有人推送了经过变基的提交，并丢弃了你的本地开发所基于的一些提交
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-41.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-41.png)
 
 结果就是你们两人的处境都十分尴尬。 如果你执行 `git pull` 命令，你将合并来自两条提交历史的内容，生成一个新的合并提交，最终仓库会如图所示：
 
 你将相同的内容又合并了一次，生成了一个新的提交
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-42.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-42.png)
 
 此时如果你执行 `git log` 命令，你会发现有 **两个提交的作者、日期、日志居然是一样的**，这会令人感到混乱。 此外，如果你将这一堆又推送到服务器上，你实际上是将那些已经被变基抛弃的提交又找了回来，这会令人感到更加混乱。 很明显对方并不想在提交历史中看到 `C4` 和 `C6`，因为之前就是他把这两个提交通过变基丢弃的。
 
@@ -165,7 +165,7 @@ git branch -d server
 
 在一个被变基然后强制推送的分支上再次执行变基
 
-![alt text](https://images.aftersoil.xyz/wiki/image/Git/git-43.png)
+![alt text](https://images.chibamai.xyz/wiki/image/Git/git-43.png)
 
 **要想上述方案有效，还需要对方在变基时确保 C4′ 和 C4 是几乎一样的**。 否则变基操作将无法识别，并新建另一个类似 C4 的补丁（而这个补丁很可能无法整洁的整合入历史，因为补丁中的修改已经存在于某个地方了）。
 
