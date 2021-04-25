@@ -1,5 +1,3 @@
-const moment = require('moment');
-
 module.exports = {
   /**
    * 头部自定义
@@ -99,80 +97,83 @@ module.exports = {
   /**
    * 导航
    */
-  themeConfig: {
-    sidebarDepth: 6,
-    editLinks: true,
-    editLinkText: '帮助我们改善此页面！',
-    nav: [
-      { text: "Home", link: "/" },
-      {
-        text: "Documents", link: "/doc",
-        items: [
-          { text: "Aftersoil-npm-api", link: "/npm-api/" },
-          { text: "Hexo-theme-sitio", link: "/sitio/" },
-        ]
-      },
-      
-      { text: "Docs", link: "/basics/" },
-      {
-        text: "Learn more", link: "/learn/",
-        items: [
+   themeConfig: {
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+        ariaLabel: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
+        serviceWorker: {
+          updatePopup: {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        },
+        algolia: {},
+        nav: [
+          { text: "Home", link: "/" },
+          { text: "Docs", link: "/basics/" },
           {
-            text: 'About us',
+            text: "Documents", link: "/doc/",
+            items: [
+              { text: "Aftersoil-npm-api", link: "/npm-api/" },
+              { text: "Hexo-theme-sitio", link: "/sitio/" },
+            ]
+          },
+          {
+            text: "Learn more", link: "/learn/",
             items: [
               { text: 'About us', link: '/learn/About/' },
             ]
           },
-        ]
-      },
-      { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" },
-      { editLinkText: '在 GitHub 上编辑此页', },
-    ],
-    sidebar: {
-      // =========================== 首页配置 ==========================
-      // "/Aftersoil/": [""],
-      // =========================== 前端文档配置 ========================
-      "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
-      "/frontend/node/": [""],
-      "/frontend/HTML/":["", "HTML", "table", "form"],
-      "/frontend/HTML5/":["", "canvas"],
-      "/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
-      "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
-      "/frontend/jQuery/": ["", "method", "event", "customize"],
-      // "/frontend/docsH5C3/":[""],
-      "/frontend/javaScript/": ["", "typeof-data", "process-control", "function", "array", "api", "date"],
-      "/frontend/typeScript/":[""],
-      "/frontend/NodeJS/":["", "module", "http"],
-      "/frontend/Express/":["", "middleware", "xz"],
-      "/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
-      // "/frontend/vue/":[""],
-      // "/frontend/vuex/":[""],
-      // "/frontend/nuxt/": [""],
-      "/frontend/webpack/": ["", "install"],
-      "/frontend/weChat/":[""],
-      // =========================== 项目文档配置 ========================
-      "/sitio/": [
-        "",
-        "guide",
-        {
-          title: '开发指南',
-          collapsable: true,
-          sidebarDepth: 3,
-          children: ["Development",]
+          { text: "Github", link: "https://github.com/Aftersoil/Aftersoil-wiki" }
+          
+          // { editLinkText: "在 GitHub 上编辑此页" },
+        ],
+        sidebar: {
+          // =========================== 首页配置 ==========================
+          "/Aftersoil/": [""],
+          // =========================== 前端文档配置 ========================
+          "/basics/": ["", "rearend", "other", "Interviewquestions", "code"],
+          "/frontend/node/": [""],
+          "/frontend/HTML/":["", "HTML", "table", "form"],
+          "/frontend/HTML5/":["", "canvas"],
+          "/frontend/css/": ["", "Dimensions-and-borders", "box-sizing", "text"],
+          "/frontend/BootStrap/": ["", "OtherComponents", "SCSS"],
+          "/frontend/jQuery/": ["", "method", "event", "customize"],
+          "/frontend/javaScript/": ["", "typeof-data", "process-control", "function", "array", "api", "date"],
+          "/frontend/typeScript/":[""],
+          "/frontend/NodeJS/":["", "module", "http"],
+          "/frontend/Express/":["", "middleware", "xz"],
+          "/frontend/ajax/":["", "AJAX-XHR", "Ajax-advanced", "summary"],
+          "/frontend/webpack/": ["", "install"],
+          "/frontend/weChat/":[""],
+          // =========================== 项目文档配置 ========================
+          "/sitio/": [
+            "",
+            "guide",
+            {
+              title: '开发指南',
+              collapsable: true,
+              sidebarDepth: 3,
+              children: ["Development",]
+            }
+          ],
+          "/npm-api/":[""],
+          // =========================== 后端文档配置 ========================
+          "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
+          // =========================== 其它文档配置 ===========================
+          "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
+          "/other/pwa/": [""],
+          "/other/download/": ["", "Rear-end", "Other", "statement"],
+          "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
+          "/other/VScode/": ["",],
+          // =========================== 了解更多配置 ===========================
+          "/learn/About/": ["",],
         }
-      ],
-      "/npm-api/":[""],
-      // =========================== 后端文档配置 ========================
-      "/rearend/MySQL/": ["", "data-storage", "SQL-commands", "Attributes"],
-      // =========================== 其它文档配置 ===========================
-      "/other/git/": ["", "git-warehouse", "git-recording", "git-history", "git-Revoke", "git-Remotely", "git-label", "git-Alias", "git-branch", "git-branch-Introduction", "git-branch-merge", "git-branch-managemen", "git-branch-process", "git-branch-remotely", "git-branch-rebase"],
-      "/other/pwa/": [""],
-      "/other/download/": ["", "Rear-end", "Other", "statement"],
-      "/other/MarkDown/": ["", "md-title", "md-paragraph", "md-lists", "md-block", "md-code", "md-link", "md-image", "md-table", "md-advance"],
-      "/other/VScode/": ["",],
-      // =========================== 了解更多配置 ===========================
-      "/learn/About/": ["",],
+      },
     }
   },
-
+   
 }
